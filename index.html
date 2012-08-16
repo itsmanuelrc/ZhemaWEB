@@ -12,15 +12,38 @@
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
+
+
+  <title>Zhema Technologies</title>
   <meta name="description" content="">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
-
+   <!--<meta name="viewport" content="width=device-width"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/social.css">
+<link rel="stylesheet" href="css/960.css">
+
+
+
+  <!-- ESTILOS DE  SLIDE -->
+
+  <link rel="stylesheet" href="css/iview/iview.css"  media="screen"/>
+    <link rel="stylesheet" href="css/iview/style.css" />
+
+
+<!-- MINI SLIDE-->
+  <link rel="stylesheet" href="css/slides/slide.css" />
+
+
+
+<!-- FOUNDATION -->
+  <link rel="stylesheet" href="css/foundation/foundation.css" />
+
+
+
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -28,26 +51,264 @@
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
+
+
+  <!-- FUENTES -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+
+
 </head>
+
 <body>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <header>
+  <div id="logo">
+     <div  class="container_16">
+        <div class="grid_5 suffix_8"><img src="img/logo_Zhema(VECTORIZADO)-chico.png"  width="300"></div>
+        <div  class="grid_3" id="busq"><input type="text" placeholder="Busca..."></div>
 
+         <div class="clear"></div>
+    </div>
+  </div>
+
+<div id="cont_menu">
+  <div class="container_16" id="barralogo">
+    <nav id="menu">
+        <ul>
+        <li ><a href="index.html">Home</a></li>
+         <li ><a href="servicios.html">Servicios</a></li>
+         <li ><a href="portafolio.html">Portafolio</a></li>
+         <li ><a href="soporte.html">Soporte</a></li>
+         <li ><a href="contacto.html">Contacto</a></li>
+       </ul>
+    </nav>
+  </div>
+</div>
   </header>
-  <div role="main">
+
+
+
+<!-- CONTENIDO -->
+<section class="container_16" id="barra_contenido">
+
+  <div id="slide" class="grid_12 ">
+
+   <div id="iview">
+      <div data-iview:thumbnail="photos/photo11_thumb.jpg" data-iview:image="photos/banner_1.png" data-iview:transition="slide-in-right">
+        <div class="iview-caption caption1" data-x="80" data-y="270" data-transition="expandDown"> De acuerdo a tus necesidades creamos un diseño atractivo y moderno.</div>
+      </div>
+
+      <div data-iview:thumbnail="photos/photo12_thumb.jpg" data-iview:image="photos/banner_2.png" data-iview:transition="slide-in-right" data-iview:pausetime="2000">
+
+
+        <div class="iview-caption caption2" data-x="50" data-y="270" data-transition="expandRight">Con SOCIAL MEDIA potencie estrategias de comunicación con sus clientes.</div>
+      </div>
+
+      <div data-iview:thumbnail="photos/photo14_thumb.jpg" data-iview:image="photos/banner_3.png" data-iview:transition="slide-in-right">
+
+         <div class="iview-caption caption3" data-x="190" data-y="240" data-transition="expandLeft">Nuestro objetivo es el de lograr comunicar efectivamente  ideas para satisfacer sus necesidades y lograr la optimización de sus proyectos de negocio</div>
+      </div>
+ <div data-iview:thumbnail="photos/photo13_thumb.jpg" data-iview:image="photos/banner_4.png" data-iview:transition="slide-in-right">
+
+      <div class="iview-caption caption4" data-x="150" data-y="10" data-transition="expandLeft">Posicione su website en los primeros lugares de busqueda en Google. Haga que todos lo encuentren!</div>
+      </div>
+
+      </div>
+
+
+    </div>
+
+  <div id="barra_derecha" class="grid_4 barra_d" >
+    <h3>No dudes en consultar</h3>
+<div>
+      <span>(511) 111 1111 <b>Lima - Perú</b>
+            <b>Nextel:</b> 637*6537 / 111*8766 <br>
+            <b>RPC:</b> *123
+      </span>
+</div>
+
+    <!-- MINI CONTACTO-->
+
+    <form action="" method="post" id="mini_contact" >
+    <div>
+      <input name="name" id="name" class="submitInt inputbox" type="text" value="Nombre" title="Nombre" onfocus="if(this.value=='Nombre'){this.value='';}" onblur="if(this.value==''){this.value='Nombre';}" />
+    </div>
+
+    <div>
+      <input name="numero" id="numero" class="submitInt inputbox" type="text" value="Numero" title="Numero" onfocus="if(this.value=='Numero'){this.value='';}" onblur="if(this.value==''){this.value='Numero';}" />
+    </div>
+
+    <div>
+      <input name="email" id="email" class="mcsignupRequired submitInt inputbox" type="text" value="Email" title="Email *" onfocus="if(this.value=='Email'){this.value='';}" onblur="if(this.value==''){this.value='Email';}" />
+    </div>
+
+
+  <div id="button_contact">
+
+    <a href="#" > Comunicame con un asesor</a>
 
   </div>
+
+    <div id="barra_clientes" class="grid_4 barra_d">
+        <h3>Nuestros clientes</h3>
+      <div id="slides">
+        <div class="slides_container">
+          <div class="slide">
+            <a href="#" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="photos/geekeandonos.jpg"  height="180px" alt="Slide 1"></a>
+            <div class="caption" >
+              <p>Geekeandonos!</p>
+            </div>
+          </div>
+          <div class="slide">
+            <a href="#" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="photos/artydecor.png" height="180px" alt="Slide 2"></a>
+            <div class="caption">
+              <p>Art&DecorCrafts</p>
+            </div>
+          </div>
+          <div class="slide">
+            <a href="#" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-3.jpg" height="180px"  alt="Slide 3"></a>
+            <div class="caption">
+              <p>Proximamente</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+  </div>
+
+
+  </form>
+    <!-- MINI CONTACTO-->
+
+  </div>
+  <div class="clear"></div>
+
+
+
+  <div id="barra_nosotros" class="grid_6">
+    <div class="box_titulo">
+<h3>Zhema Technologies </h3></div><p>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+<div id="create">
+ <a href="#mas"> Lee más</a>
+
+</div>
+  </div>
+  <div id="barra_somos" class="grid_6">
+
+ <!--    <div class="box_titulo">
+ <h3>¿Que te ofrecemos? </h3></div>
+<div id="box_cont">
+<img src="img/icon-team.png">
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+</div> -->
+
+<dl class="tabs">
+  <dd class="active"><a href="#simple1">ZHEMA</a></dd>
+  <dd><a href="#simple2">1</a></dd>
+  <dd><a href="#simple3">2</a></dd>
+  <dd><a href="#simple2">3</a></dd>
+  <dd><a href="#simple3">4</a></dd>
+</dl>
+
+<ul class="tabs-content">
+  <li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
+  <li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
+  <li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+</ul>
+
+  </div>
+
+
+
+  <div class="clear"></div>
+
+</section>
+
+
+
+
+<!--  PIE DE PAGINA-->
   <footer>
 
+<section id="barra_abajo">
+  <div class="container_16">
+
+     <!-- MENU RAPIDO -->
+    <div class="grid_5 bot">
+      <nav id="menu_inf">
+        <ul>
+         <li ><a href="index.html">Home</a></li>
+         <li ><a href="servicios.html">Servicios</a></li>
+         <li ><a href="portafolio.html">Portafolio</a></li>
+         <li ><a href="soporte.html">Soporte</a></li>
+         <li ><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+     <!--  -->
+<div class="grid_6 bot">
+
+</div>
+
+    <!-- ACERCA DE ZHEMA -->
+    <div id="about_zhema"  class="grid_5 bot">
+  <h2>Acerca de ZHEMA</h2>
+  <div>
+      <p>Zhema es una empresa peruana dedicada
+          al desarrollo del mundo de internet,
+          contribuyendo de esta manera al avance tecnologico.</p></div>
+      <a href="#about"> Lee más acerca de Zhema</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</section>
+
+
+
+<!-- SOCIALES -->
+<section id="barra_sociales">
+<div class="container_16">
+
+          <div id="bottom-text"  class="grid_5 suffix_6 alpha">2012 Zhema Technologies all rights reserved. <a href="http://www.zhema.pe"> zhema.pe</a> </div>
+
+
+          <!-- Social -->
+          <ul class="social grid_4">
+            <li><a href="http://www.facebook.com" class="facebook" title="Become a fan"></a></li>
+            <li><a href="http://www.twitter.com" class="twitter" title="Follow our tweets"></a></li>
+            <li><a href="http://www.skype.com" class="skype" title="Call us"></a></li>
+            <li><a href="http://www.youtube.com" class="youtube" title="View our videos"></a></li>
+          </ul>
+          <!-- ENDS Social -->
+          <div class="clear"></div>
+</div>
+</section>
   </footer>
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via build script -->
@@ -57,11 +318,86 @@
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
        mathiasbynens.be/notes/async-analytics-snippet -->
+ <!--
+
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
+-->
+
+
+<!-- IVIEW -->
+
+
+    <script type="text/javascript" src="js/iView/raphael-min.js"></script>
+    <script type="text/javascript" src="js/iView/jquery.easing.js"></script>
+
+    <script src="js/iView/iview.js"></script>
+
+<!-- MINI SLIDE-->
+<script src="js/libs/Slides/slides.min.jquery.js"></script>
+
+
+<!-- FUNDATION TABS -->
+<script src="js/libs/fundation/jquery.foundation.tabs.js"></script>
+
+
+<script>
+      $(document).ready(function(){
+        $('#iview').iView({
+          pauseTime: 8000,
+          pauseOnHover: true,
+          timerColor: "#FFF"
+
+        });
+      });
+
+
+</script>
+<script>
+    $(function(){
+      $('#slides').slides({
+        preload: true,
+        preloadImage: 'img/loading.gif',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true,
+        pagination:true,
+        animationStart: function(current){
+          $('.caption').animate({
+            bottom:-35
+          },100);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log('animationStart on slide: ', current);
+          };
+        },
+        animationComplete: function(current){
+          $('.caption').animate({
+            bottom:0
+          },200);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log('animationComplete on slide: ', current);
+          };
+        },
+        slidesLoaded: function() {
+          $('.caption').animate({
+            bottom:0
+          },200);
+        }
+      });
+    });
+  </script>
+
+  <<script type="text/javascript">
+    $(document).foundationTabs();
+  </script>
+
+<!-- -->
+
 </body>
 </html>

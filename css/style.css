@@ -50,7 +50,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
+a { color: #00e; text-decoration: none !important; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -215,12 +215,602 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Manuel Rivera
    ========================================================================== */
 
 
 
+ nav ul{
+  margin: 0;
+  font-size: 0px;
+ }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a:visited{
+  color:white;
+}
+
+
+
+#about_zhema{
+  font-size: 13px;
+    color: #bbbaba;
+width: 250px;
+}
+
+#about_zhema a:link{
+  color: #4ABCE4;
+}
+
+/* CUADRO DE BUSQUEDA */
+
+#busq {
+  padding-top: 40px;
+  background: transparent;
+  color: white;
+}
+
+
+
+#busq input{
+  background: url(../img/search.png) no-repeat;
+  border: 0px;
+  color: white;
+  font-size: 13px;
+  font-style: italic;
+  height: 28px;
+  padding-left: 10px;
+  width: 160px;
+}
+
+/* MENU */
+
+
+ #menu ul  li{
+
+  display: inline-block;
+  height: 45px;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 20%;
+  text-transform: uppercase;
+
+ }
+
+ #menu ul li a{
+color: white;
+font-family: Arial;
+
+text-shadow:1px 1px 5px rgba(0,0,0,.5);
+
+ }
+
+ #menu ul li:hover{
+  background-color:#4ABCE4;
+ }
+
+.bot{
+
+  height: 150px;
+}
+
+#cont_menu{
+
+  background: url(../img/bgbanner.jpg) repeat-x;
+}
+
+#logo{
+background-color:rgb(47,53,62);
+background: url(../img/background-public-body.png) repeat-x;
+height: 100px;
+}
+
+
+/*  CONTENIDO */
+
+#barra_contenido{
+  color:#666666;
+  font-family: Verdana, Arial;
+  font-size:12px;
+}
+#slide{
+ /*background-color:#4ABCE4;
+ background: url(../img/slide_z.png);*/
+ height: 317px;
+ margin-top: 20px;
+}
+
+#barra_derecha{
+ background: url(../img/minicontact_bg.png);
+ height: 317px;
+ margin-top: 0px;
+
+}
+
+.barra_d h3{
+  text-align: center;
+  font-family: 'Ubuntu', arial, serif;
+  font-size: 13px;
+  padding-bottom: 0px;
+  color: gray;
+}
+
+#barra_derecha span{
+  color: white;
+  padding: 20px 0 0 20px;
+  display: block;
+}
+
+
+#mini_contact{
+margin-top: 20px;
+  text-align: center;
+  padding-top: 0px;
+}
+
+#mini_contact input{
+ height: 20px;
+ margin-top: 10px;
+ padding-left: 10px;
+  -khtml-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+border: 3px solid #7CA70C;
+
+outline: 0;
+/* transiciones*/
+-o-transition: .3s;
+-ms-transition: .3s;
+-moz-transition: .3s;
+-webkit-transition: .3s;
+transition: .3s;
+}
+
+
+#mini_contact input:focus{
+  border-color:#fbce17
+}
+
+
+#button_contact{
+  background-color: #b9dc2f;
+  float: right;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  color: #ffffff;
+  padding: 0px 5px;
+
+  margin: 25px 0 0 0;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 1px 1px #679b1f;
+
+ }
+
+#button_contact a{
+  color: white;
+
+
+}
+
+
+#barra_nosotros{
+
+ height: 184px;
+  margin-top: 20px;
+}
+
+#barra_somos{
+
+ height: 184px;
+  margin-top: 20px;
+}
+
+#barra_clientes{
+
+ height: 184px;
+
+
+}
+
+
+
+
+#barra_abajo{
+  margin-top: 10px;
+  height:205px;
+  background-color:#222426;
+}
+
+#barra_sociales{
+  height:49px;
+  background-color:#222426;
+}
+
+
+
+/* MENU DE ABAJO */
+
+#menu_inf{
+  padding-top: 20px;
+}
+ #menu_inf ul  li{
+  background: url(../img/footer-bullet.png) no-repeat 0px 10px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #4a4a4a;
+  color: white;
+  height: 25px;
+  font-size: 13px;
+  padding-top: 2px;
+  padding-left: 20px;
+  text-align: left;
+  vertical-align: top;
+ }
+
+#menu_inf ul  li:first-child{ border-top: none; }
+
+#menu_inf ul  li:last-child{ border-bottom: none; }
+
+
+ #menu_inf ul li a{
+    color: #bbbaba;
+    font-family: Arial;
+    font-weight: bold;
+ }
+
+ #menu_inf ul li:hover{
+    padding-left: 25px;
+ }
+
+
+
+ /* TEXTO DE ABAJO*/
+
+#bottom-text{
+    font-size: 13px;
+    color: #bbbaba;
+}
+
+#bottom-text a{
+  color: #AFEAF9;
+  text-decoration: none;
+}
+
+
+
+#barra_nosotros p{
+padding-left: 20px;
+padding-right: 10px;
+
+}
+
+#barra_nosotros #create{
+   float: right;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin: 2px 0 0 0;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: url(../img/button_back.png) top left repeat-x #b9dc2f;
+  text-shadow: 1px 1px #679b1f;
+}
+
+#create a{
+color: white;
+  -webkit-transition: background-position 0.2s linear;
+  -moz-transition: background-position 0.2s linear;
+  -o-transition: background-position 0.2s linear;
+  transition: background-position 0.2s linear;
+}
+
+
+.box_titulo h3{
+
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top:0px;
+  /* color:#2f353e; */
+  color: white;
+  height: 40px;
+  padding-top: 10px;
+  box-shadow: 2px 2px 4px;
+}
+
+#barra_nosotros .box_titulo{
+  background-color: #4ABCE4;
+}
+
+#barra_somos .box_titulo{
+  background-color: rgb(130,192,40);
+}
+
+
+/*  CONTACTO*/
+/* ================================================================*/
+
+#contactForm input,
+#contactForm textarea,
+#commentform input,
+#commentform textarea{
+  padding: 10px 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+
+#page-title{
+  overflow: hidden;
+  height: 103px;
+  margin-bottom: 30px;
+  background:  url(../img/tabs-divider.png) repeat-x bottom center;
+  text-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#page-title .title{
+  display: block;
+  float: left;
+  font-family: 'Ubuntu', arial, serif;
+  font-size: 40px;
+  line-height: 103px;
+  margin-left: 30px;
+}
+
+#page-title .subtitle{
+  display: block;
+  float: left;
+  margin-left: 30px;
+  font-size: 14px;
+  margin-top: 4px;
+  line-height: 103px;
+  color: #929191;
+  font-style: italic;
+
+}
+
+#contactForm input,
+#contactForm textarea,
+#commentform input,
+#commentform textarea{
+  color: #606060;
+  font-size: 14px;
+  width: 380px;
+  display: block;
+}
+
+#contactForm input{
+   width: 282px;
+}
+
+#contactForm  #submit{
+   width: 100px;
+   background-color: rgb(130,192,40);
+   color: white;
+   text-shadow:1px 1px 4px;
+
+}
+
+#contactForm textarea{
+    width: 380px;
+}
+
+.one-column{
+  vertical-align: top;
+  width: 438px;
+  float: left;
+  margin-left: 30px;
+}
+
+
+/* SERVICIOS */
+
+.panes .blocks-thumbs{
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.panes .blocks-thumbs li{
+  display: block;
+  float: left;
+  width: 282px;
+  padding-right: 20px;
+}
+
+#content .panes .blocks-thumbs li .header{
+  display: block;
+  font-family: 'Ubuntu', arial, serif;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #2f3235;
+  border-bottom: 1px solid #c4c7c8;
+  padding-bottom: 10px;
+}
+
+.blocks-thumbs li a.thumb{
+  display: block;
+  overflow: hidden;
+  width: 282px;
+
+
+  height: 150px;
+  margin-bottom: 20px;
+  background: url(../img/plus-sign.png) no-repeat center center;
+
+
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+/* LISTA DE BENEFICIOS */
+
+#list_beneficios li{
+  font-size: 15px;
+  background: url(../img/check.png) no-repeat;
+  padding-left: 20px;
+
+  margin-top: 5px;
+  padding-top: -10px;
+}
+
+
+
+
+/* SOPORTE  */
+
+
+/* ================================================================*/
+
+#articles section,
+#articles aside {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+
+}
+#articles section hgroup,
+#articles aside hgroup {
+  padding: 0;
+  margin: 0 0 0px 0;
+  width: 100%;
+  height: 90px;
+}
+#articles section hgroup h1,
+#articles aside hgroup h1,
+#articles section hgroup h2,
+#articles aside hgroup h2 {
+  clear: both;
+  width: 100%;
+}
+#articles section hgroup h2,
+#articles aside hgroup h2 {
+  font-family: "Ububtu", "Helvetica Neue", Arial, sans-serif;
+  font-size-adjust: 0.48;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 5px;
+}
+#articles section {
+  float: left;
+  width: 705px;
+}
+#articles section hgroup {
+  width: 675px;
+}
+#articles section hgroup h1 {
+  font-size: 30px;
+  margin: 20px 0 5px 0;
+}
+#articles section ul {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0 0;
+  list-style-type: none;
+}
+#articles section ul li {
+  float: left;
+  width: 340px;
+  background: url('../img/icons.png') top left no-repeat;
+  min-height: 40px;
+  margin: 0 11px 60px 0;
+}
+#articles section ul li.billing {
+  background-position: 0 -395px;
+}
+#articles section ul li.createsend {
+  background-position: 0 -97px;
+}
+#articles section ul li.customize {
+  background-position: 0 -498px;
+}
+#articles section ul li.clients {
+  background-position: 0 -198px;
+}
+#articles section ul li.subscribers {
+  background-position: 0 -595px;
+}
+#articles section ul li.templates {
+  background-position: 0 -300px;
+}
+#articles section ul li.reports {
+  background-position: 0 -700px;
+}
+#articles section ul li a {
+  float: left;
+  width: 275px;
+  padding: 0 0 0 65px;
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+#articles section ul li a:hover h3 {
+  color: #19a9e5;
+
+}
+#articles section ul li h3 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  color: #2f353e;
+  font-size: 1.3em;
+  margin: 0 0 9px 0;
+}
+#articles section ul li h3 span {
+  font-family: Georgia;
+  color: #19a9e5;
+  font-size: 0.8em;
+}
+#articles aside {
+  float: right;
+  width: 215px;
+}
+#articles aside hgroup h1 {
+  font-size: 17px;
+  margin: 7px 0 6px 0;
+}
+#articles aside ul {
+  float: left;
+  margin-top: 5px;
+}
+#articles aside ul li {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px 0;
+  color: #8e959c;
+  line-height: 1.4em;
+}
 
 
 

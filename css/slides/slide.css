@@ -1,0 +1,128 @@
+
+/*
+	Slideshow
+*/
+
+#slides {
+width: 220px;
+height: 184px;
+
+
+}
+
+}
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:220px;
+	height: 184px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:220px;
+text-align: center;
+}
+
+
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	margin-top: 2px;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0px;
+	padding-top:12px;
+	background-image:url(../../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:500;
+	position:absolute;
+	bottom:-35px;
+	height:30px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	padding:0px 0px 5px 10px;
+	width:220px;
+	font-size:13px;
+	color:#fff;
+	text-shadow:none;
+
+
+}
+
+
+
+/*
+	Anchors
+*/
+
+a:link,a:visited {
+	color:#599100;
+	text-decoration:none;
+}
+
+a:hover,a:active {
+	color:#599100;
+	text-decoration:underline;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}

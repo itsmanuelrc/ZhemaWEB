@@ -1,0 +1,52 @@
+/* BARRA DE SOCIALES */
+
+.social .facebook{
+	background: url(../img/social/facebook_32.png);
+
+}
+
+.social .twitter{
+	background: url(../img/social/twitter_32.png);
+
+}
+
+.social .skype{
+	background: url(../img/social/skype_32.png);
+
+}
+
+.social .youtube{
+	background: url(../img/social/youtube_32.png);
+
+}
+
+#barra_sociales
+{
+	display: block;
+	margin: 0px;
+	font-size: 0px;
+
+}
+
+
+#barra_sociales .social li{
+	display: block;
+	float: left;
+	height: 32px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+    width: 32px;
+}
+
+
+#barra_sociales .social a{
+	display: block;
+	width: 32px;
+	height: 32px;
+
+}
+
+
+#barra_sociales .social a:hover{
+    background-position: 0px -32px;
+}
