@@ -20,8 +20,8 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/social.css">
+
+<link rel="stylesheet" href="css/core.css">
 <link rel="stylesheet" href="css/960.css">
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -33,6 +33,7 @@
 
   <!-- FUENTES -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Signika:700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -42,9 +43,11 @@
   <header>
   <div id="logo">
      <div  class="container_16">
-        <div class="grid_5 suffix_8"><img src="img/logo_Zhema(VECTORIZADO)-chico.png"  width="300"></div>
-        <div  class="grid_3" id="busq"><input type="text" placeholder="Busca..."></div>
-
+   <div class="grid_5 suffix_6"><img src="img/logo_Zhema(VECTORIZADO)-chico.png"  width="300"></div>
+        <div  class="grid_5" id="busq">
+                <input id="livesearch" class="search" name="livesearch" placeholder="Busca..." type="search" value="" autofocus />
+        <a href="/" id="searchurl"> Búsqueda ›</a>
+        </div>
          <div class="clear"></div>
     </div>
   </div>
@@ -72,58 +75,48 @@
 <div id="articles" class="central">
     <section>
       <hgroup>
-        <h1>Estamos para ayudar</h1>
-        <h2>Encuentra informacion util sobre nuestros servicios</h2>
+        <span class="title">Estamos para ayudar</span>
+        <h2>Encuentra informacion util sobre nuestros servicios y cosas interesantes.</h2>
       </hgroup>
       <ul>
+        <li class="subscribers">
+          <a href="http://help.campaignmonitor.com/category.aspx?c=3">
+            <h3>Preguntas Frecuentes <span>&rsaquo;</span></h3>
+            <p>Encuentra respuestas rapidas a tus posibles dudas más comunes.</p>
+          </a>
+        </li>
         <li>
           <a href="http://help.campaignmonitor.com/category.aspx?c=6">
-            <h3>Advanced <span>&rsaquo;</span></h3>
-            <p>API, form integration and other fancy stuff</p>
+            <h3>Diseñando tu Web <span>&rsaquo;</span></h3>
+            <p>Conoce que hay detrás del desarrollo de tu Web.</p>
           </a>
         </li>
         <li class="billing">
           <a href="http://help.campaignmonitor.com/category.aspx?c=34">
-            <h3>Billing <span>&rsaquo;</span></h3>
-            <p>Set your own prices and accept payments</p>
+            <h3>Sobre Nosotros <span>&rsaquo;</span></h3>
+            <p>Una oportunidad para conocer más de nuestro trabajo.</p>
           </a>
         </li>
         <li class="createsend">
           <a href="http://help.campaignmonitor.com/category.aspx?c=1">
-            <h3>Create &amp; Send <span>&rsaquo;</span></h3>
-            <p>Help on formatting, personalization &amp; more</p>
+            <h3>Diseñando tus ideas<span>&rsaquo;</span></h3>
+            <p>Si tienes una idea nosotros la diseñamos, mira lo que te ofrecemos.</p>
           </a>
         </li>
         <li class="customize">
           <a href="http://help.campaignmonitor.com/category.aspx?c=40">
-            <h3>Customize &amp; Account <span>&rsaquo;</span></h3>
-            <p>Change the look and feel of your account</p>
+            <h3> Una empresa tecnologica <span>&rsaquo;</span></h3>
+            <p>Conoce más de las herramientas que actualmente usan las empresas modernas.</p>
           </a>
         </li>
         <li class="clients">
           <a href="http://help.campaignmonitor.com/category.aspx?c=2">
-            <h3>Manage Clients <span>&rsaquo;</span></h3>
-            <p>Control how each client uses their account</p>
+            <h3>Marketing Online <span>&rsaquo;</span></h3>
+            <p>La página web de su empresa puede ser una herramienta de marketing y publicidad muy efectiva; no basta con ello.</p>
           </a>
         </li>
-        <li class="subscribers">
-          <a href="http://help.campaignmonitor.com/category.aspx?c=3">
-            <h3>Manage Subscribers <span>&rsaquo;</span></h3>
-            <p>Importing, fields, segmentation and more</p>
-          </a>
-        </li>
-        <li class="templates">
-          <a href="http://help.campaignmonitor.com/category.aspx?c=36">
-            <h3>Templates <span>&rsaquo;</span></h3>
-            <p>Template tag glossary and how-to's</p>
-          </a>
-        </li>
-        <li class="reports">
-          <a href="http://help.campaignmonitor.com/category.aspx?c=4">
-            <h3>Reports <span>&rsaquo;</span></h3>
-            <p>Getting the most out of your reporting data</p>
-          </a>
-        </li>
+
+
       </ul>
     </section>
 
@@ -206,7 +199,7 @@
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
   <!-- scripts concatenated and minified via build script -->
@@ -217,13 +210,13 @@
               <!-- ESTO ES DEL FORMULARIO CONTACTO-->
               <script type="text/javascript" src="js/form-validations.js"></script>
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
+       mathiasbynens.be/notes/async-analytics-snippet
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-
+-->
 </body>
 </html>

@@ -19,12 +19,18 @@
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
    <!--<meta name="viewport" content="width=device-width"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/social.css">
+
 <link rel="stylesheet" href="css/960.css">
+
+<link rel="stylesheet" href="css/core.css">
 
 
 
@@ -55,8 +61,8 @@
 
   <!-- FUENTES -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
-
-
+  <link href='http://fonts.googleapis.com/css?family=Signika:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -66,9 +72,11 @@
   <header>
   <div id="logo">
      <div  class="container_16">
-        <div class="grid_5 suffix_8"><img src="img/logo_Zhema(VECTORIZADO)-chico.png"  width="300"></div>
-        <div  class="grid_3" id="busq"><input type="text" placeholder="Busca..."></div>
-
+        <div class="grid_5 suffix_6"><img src="img/logo_Zhema(VECTORIZADO)-chico.png"  width="300"></div>
+        <div  class="grid_5" id="busq">
+                <input id="livesearch" class="search" name="livesearch" placeholder="Busca..." type="search" value="" autofocus />
+        <a href="/" id="searchurl"> Búsqueda ›</a>
+        </div>
          <div class="clear"></div>
     </div>
   </div>
@@ -121,38 +129,36 @@
     </div>
 
   <div id="barra_derecha" class="grid_4 barra_d" >
-    <h3>No dudes en consultar</h3>
-<div>
-      <span>(511) 111 1111 <b>Lima - Perú</b>
-            <b>Nextel:</b> 637*6537 / 111*8766 <br>
-            <b>RPC:</b> *123
-      </span>
-</div>
+
+
 
     <!-- MINI CONTACTO-->
 
     <form action="" method="post" id="mini_contact" >
-    <div>
+    <div id="despacio">
+      <span><b>A sólo una llamada</b> Comentanos tus ideas.</span>
+    </div>
+
+    <div id="dnombre">
       <input name="name" id="name" class="submitInt inputbox" type="text" value="Nombre" title="Nombre" onfocus="if(this.value=='Nombre'){this.value='';}" onblur="if(this.value==''){this.value='Nombre';}" />
     </div>
 
-    <div>
+    <div id="dnumero">
       <input name="numero" id="numero" class="submitInt inputbox" type="text" value="Numero" title="Numero" onfocus="if(this.value=='Numero'){this.value='';}" onblur="if(this.value==''){this.value='Numero';}" />
     </div>
 
-    <div>
+    <div id="demail">
       <input name="email" id="email" class="mcsignupRequired submitInt inputbox" type="text" value="Email" title="Email *" onfocus="if(this.value=='Email'){this.value='';}" onblur="if(this.value==''){this.value='Email';}" />
     </div>
 
+    <div id="button_contact">
 
-  <div id="button_contact">
+     <a href="#" > Comunicame con un asesor</a>
+    </div>
 
-    <a href="#" > Comunicame con un asesor</a>
-
-  </div>
-
+    </form>
     <div id="barra_clientes" class="grid_4 barra_d">
-        <h3>Nuestros clientes</h3>
+
       <div id="slides">
         <div class="slides_container">
           <div class="slide">
@@ -181,7 +187,6 @@
   </div>
 
 
-  </form>
     <!-- MINI CONTACTO-->
 
   </div>
@@ -190,15 +195,13 @@
 
 
   <div id="barra_nosotros" class="grid_6">
-    <div class="box_titulo">
-<h3>Zhema Technologies </h3></div><p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-<div id="create">
- <a href="#mas"> Lee más</a>
+    <div class="box_titulo"><h3>Zhema Technologies </h3></div>
+  <p>
+    Nos enfocamos en el uso de estas nuevas herramientas tecnologicas para potenciar el alcance de sus productos o servicios de manera que construyan mejores relaciones con nuevos clientes.
+  </p>
+  <!-- <input type="button" value="Ver más" name="submit" action="nosotros.html" class="submit"/> -->
+  <a href="nosotros.html" class="submit">Ver más</a>
 
-</div>
   </div>
   <div id="barra_somos" class="grid_6">
 
@@ -211,17 +214,19 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p
 </div> -->
 
 <dl class="tabs">
-  <dd class="active"><a href="#simple1">ZHEMA</a></dd>
-  <dd><a href="#simple2">1</a></dd>
-  <dd><a href="#simple3">2</a></dd>
-  <dd><a href="#simple2">3</a></dd>
-  <dd><a href="#simple3">4</a></dd>
+  <dd class="active l1"><a href="#simple1">&nbsp;&nbsp;ZHEMA&nbsp;&nbsp; </a></dd>
+  <dd><a class="l2" href="#simple2">&nbsp;<img src="img/logo1_barra.png"/>&nbsp;</a></dd>
+  <dd><a class="l3" href="#simple3">&nbsp;<img src="img/logo2_barra.png"/>&nbsp;</a></dd>
+  <dd><a class="l4" href="#simple4">&nbsp;<img src="img/logo3_barra.png"/>&nbsp;</a></dd>
+  <dd><a class="l5" href="#simple5">&nbsp;<img src="img/logo4_barra.png"/>&nbsp;</a></dd>
 </dl>
 
 <ul class="tabs-content">
-  <li class="active" id="simple1Tab">This is simple tab 1's content. Pretty neat, huh?</li>
-  <li id="simple2Tab">This is simple tab 2's content. Now you see it!</li>
-  <li id="simple3Tab">This is simple tab 3's content. It's, you know...okay.</li>
+  <li class="active" id="simple1Tab">Somos una empresa joven apasionada por la tecnologia y el diseño. En 4 pasos te contamos más de esto <span>&rsaquo;</span> </li>
+  <li id="simple2Tab">Nos enfocamos en el desarrollo de ideas innovadores que permitan brindarle a Ud. nuevas estrategias de marketing.</li>
+  <li id="simple3Tab">Brindar desarrollo a su empresa a través de nuestros servicios es nuestro objetivo. Desarrollamos sitios web su medida con el fin de que Ud. Pueda mostrar sus productos y servicios a clientes de una manera dinámica .</li>
+  <li id="simple4Tab">Ofrecerle nuestra inmediata ayuda para las necesidades que tenga su empresa y orientarlo en la creación de sus sitios web  es nuestra labor, le ayudamos a administrar sus sitios y redes sociales para que así pueda llegar a más personas y le permitan tener un mayor crecimiento.</li>
+  <li id="simple5Tab">Usted es nuestra principal razón de ser, es por ello que nuestro equipo trabaja día a día por brindarle lo mejor de una manera fácil y accesible. Nos encargamos de desarrollar herramientas que le permitan crecer en un mercado tan competitivo como este.</li>
 </ul>
 
   </div>
@@ -229,6 +234,38 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p
 
 
   <div class="clear"></div>
+
+<div class="grid_16">
+
+  <div id="items">
+              <a href="#" class="item">
+                <div class="header">
+                  <h3>INNOVACION</h3>
+                  <img src="img/logo1.png" alt="cursos" height="97" width="97"/>
+                </div>
+              </a>
+              <a href="#" class="item">
+                <div class="header">
+                  <h3> DESARROLLO</h3>
+                  <img src="img/logo2.png" alt="cursos" height="97" width="97"/>
+                </div>
+              </a>
+              <a href="#" class="item">
+                <div class="header">
+                  <h3>SOPORTE</h3>
+                  <img src="img/logo3.png" alt="cursos" height="97" width="97"/>
+                </div>
+              </a>
+
+              <a href="#" class="item">
+                <div class="header">
+                  <h3>CLIENTES</h3>
+                  <img src="img/logo4.png" alt="cursos" height="97" width="97"/>
+                </div>
+              </a>
+            </div>
+</div>
+<div class="clear"></div>
 
 </section>
 
@@ -261,11 +298,11 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p
 
     <!-- ACERCA DE ZHEMA -->
     <div id="about_zhema"  class="grid_5 bot">
-  <h2>Acerca de ZHEMA</h2>
-  <div>
+    <h2>Acerca de ZHEMA</h2>
+    <div>
       <p>Zhema es una empresa peruana dedicada
-          al desarrollo del mundo de internet,
-          contribuyendo de esta manera al avance tecnologico.</p></div>
+        al desarrollo del mundo de internet,
+        contribuyendo de esta manera al avance tecnologico.</p></div>
       <a href="#about"> Lee más acerca de Zhema</a>
     </div>
   </div>
@@ -314,6 +351,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p
   <!-- scripts concatenated and minified via build script -->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
+
   <!-- end scripts -->
 
   <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
@@ -350,7 +388,15 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p
         $('#iview').iView({
           pauseTime: 8000,
           pauseOnHover: true,
-          timerColor: "#FFF"
+          timerColor: "#FFF",
+          timer: "Bar",
+          timerDiameter: "60",
+          timerPadding: 0,
+          timerStroke: 7,
+          timerBarStroke: 0,
+          timerColor: "#FFF",
+          timerPosition: "top-right"
+
 
         });
       });
@@ -393,7 +439,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p
     });
   </script>
 
-  <<script type="text/javascript">
+  <script type="text/javascript">
     $(document).foundationTabs();
   </script>
 

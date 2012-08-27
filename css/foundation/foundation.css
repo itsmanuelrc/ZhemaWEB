@@ -8,14 +8,15 @@
  Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
 /* Requires globals.css app.js */
 /* Tabs ---------------------- */
-dl.tabs { border-bottom: solid 1px #e6e6e6; display: block; height: 40px; padding: 0; margin-bottom: 20px; }
+dl.tabs { border-bottom: solid 1px #e6e6e6; display: block; height: 50px; padding: 0; margin-bottom: 20px; }
 dl.tabs.contained { margin-bottom: 0; }
 dl.tabs dt { color: #b3b3b3; cursor: default; display: block; float: left; font-size: 12px; height: 40px; line-height: 40px; padding: 0 9px 0 20px; width: auto; text-transform: uppercase; }
 dl.tabs dt:first-child { padding: 0 9px 0 0; }
 dl.tabs dd { display: block; float: left; padding: 0; margin: 0; }
 dl.tabs dd a { color: #6f6f6f; display: block; font-size: 14px; height: 40px; line-height: 40px; padding: 0px 23.8px; }
 dl.tabs dd.active { border-top: 3px solid #2ba6cb; border-bottom: 0px; margin-top: -3px; }
-dl.tabs dd.active a { cursor: default; color: #3c3c3c; background: #fff; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; font-weight: bold; }
+dl.tabs dd.active a {cursor: default;color: #3c3c3c;border-left: 1px solid #e6e6e6;border-right: 1px solid #e6e6e6;font-weight: bold; }
+
 dl.tabs dd:first-child { margin-left: 0; }
 dl.tabs.vertical { height: auto; border-bottom: 1px solid #e6e6e6; }
 dl.tabs.vertical dt, dl.tabs.vertical dd { float: none; height: auto; }
@@ -38,7 +39,7 @@ dl.tabs.four-up dt, dl.tabs.four-up dd { width: 25%; }
 dl.tabs.five-up dt, dl.tabs.five-up dd { width: 20%; }
 
 ul.tabs-content { display: block; margin: 0 0 20px; padding: 0; }
-ul.tabs-content > li { display: none; }
+ul.tabs-content > li { display: none; text-align: justify;}
 ul.tabs-content > li.active { display: block; }
 ul.tabs-content.contained { padding: 0; }
 ul.tabs-content.contained > li { border: solid 0 #e6e6e6; border-width: 0 1px 1px 1px; padding: 20px; }
