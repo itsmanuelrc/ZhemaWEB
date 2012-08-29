@@ -218,6 +218,7 @@ td { vertical-align: top; }
    Author: Manuel Rivera
    ========================================================================== */
 
+/*//////////////////////*/
 
  nav ul{
   margin: 0;
@@ -385,15 +386,15 @@ height: 100px;
 /* 4 CIRCULOS */
 #items{text-align:center;font-size:0;margin:auto;}
 #items .item{
-  background:#0670dd;
   display:inline-block;
-  font-size:16px;
+  font-size:14px;
+  font-family: 'Open Sans', sans-serif;
   width:25%;
   vertical-align:top;
   text-align: center;
 }
 
-#items .item h3{color:#fff;margin-bottom:10px}
+#items .item h3{color:gray;margin-bottom:10px}
 #items .item img{margin-bottom:10px}
 #items .item:hover img
 {-o-animation-duration:.3s;
@@ -406,13 +407,14 @@ height: 100px;
   -moz-animation-name:item;
   -webkit-animation-name:item;
   animation-name:item;
-  -o-animation-iteration-count:5;
-  -ms-animation-iteration-count:5;
-  -moz-animation-iteration-count:5;
-  -webkit-animation-iteration-count:5;
-  animation-iteration-count:5}
+  /*rebotes*/
+  -o-animation-iteration-count:4;
+  -ms-animation-iteration-count:4;
+  -moz-animation-iteration-count:4;
+  -webkit-animation-iteration-count:4;
+  animation-iteration-count:4}
 
-#items .item .header{float:left;background:#0670dd;padding:10px;width:120px}
+#items .item .header{float:left;padding:10px;width:120px}
 
 /**/
 }@-moz-keyframes item{50%{-o-transform:translateY(10px);-ms-transform:translateY(10px);-moz-transform:translateY(10px);-webkit-transform:translateY(10px);transform:translateY(10px)}
@@ -435,6 +437,7 @@ height: 100px;
   font-family: Verdana, Arial;
   font-size:12px;
   background-color: white;
+  padding-bottom: 10px;
 }
 #slide{
  height: 317px;
@@ -442,7 +445,6 @@ height: 100px;
 }
 
 #barra_derecha{
-/* background: url(../img/minicontact_bg.png);*/
  height: 317px;
  margin-top: 20px;
 }
@@ -547,14 +549,16 @@ transition: .3s;
   height: 184px;
   margin-top: 20px;
   text-align: justify;
+
 }
 
 /* LOGOS DE ZHEMA EXPLICACION */
 
 #barra_somos{
 
- height: 184px;
+  height: 184px;
   margin-top: 20px;
+
 }
 
 
@@ -571,6 +575,111 @@ transition: .3s;
 
 }
 
+/**/
+
+.togglebox1 {
+  background-color:#CCC;
+  border: 1px solid #a9a9a9;
+  overflow: hidden;
+  font-size: 1.2em;
+  width: 295px;
+}
+.togglebox1 .block {
+
+}
+
+#items h1 {
+  font-size:24px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #000;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/**/
+
+/* BARRA CONTENIDO DE IDEAS DE LOGO*/
+#barra_logos{
+font-family: Arial;
+font-size: 16px;
+font-weight: 22px;
+display: block;
+}
+
+
+#barra_logos h2
+{text-align:center;font-size:22px;position:relative;margin-bottom:40px}
+
+#barra_logos  h2:before,#barra_logos  h2:after
+{content:"";position:absolute;width:360px;height:1px;background:#ddd;left:0;top:18px}
+
+#barra_logos  h2:after{left:auto;right:0}
+
+
+#barra_logos  h2:before,#barra_logos  h2:after{width:260px}
+
+
+
+/*clientes*/
+
+.testimonial{width:350px;height:280px;margin:0 20px;display:inline-block;text-align:center}
+.testimonial cite{color:#888;font-size:16px;display:table-cell;padding:0 21px 0 131px;vertical-align:middle}
+.testimonial p{position:absolute;font-weight:600;bottom:-17px;display:block;left:21px;white-space:nowrap}
+.testimonial img{display:block;float:none;margin:0 auto;position:relative;top:0;padding-bottom:20px; width:91px;height: 91px; }
+.testimonial cite{padding:0}
+.testimonial p{position:relative;bottom:0;left:0;padding:10px 0 0;white-space:normal}
+
+.testimonials h2{font-size:30px;color:#565656;text-shadow:0 1px 1px #fff;padding-top:10px;margin-bottom:10px}
+.testimonials{text-align:center;position:relative}
+
+
+
+.large-icons i
+{ -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  -o-transition: color .5s;
+  transition: color .5s;
+  color: #231f20;
+  display: block;
+  line-height: 1.4;
+  text-align: center;
+  font-size: 100px;
+}
+
+    @media only screen and (max-device-width: 768px) {
+      .large-icons i { margin-right: 56px; }
+    }
+
+
+
+/* IDEAS*/
+
+.ideas{border-top:10px solid #b8d30b; font-family: "Open Sans", Arial, sans-serif !important;}
+.ideas span{font-size:50px !important;line-height:56px;color:#b8d30b;margin-top:30px;}
+.ideas p{font-size:18px;line-height:22px;margin-top:20px;}
+
+.columns{margin:0;}
+
+.columns div{
+  display: inline-block;
+  margin: 0 20px;
+  padding: 10px;
+  width: 300px;
+}
+.columns .services-link{
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+
+.columns i{font-size: 60px;}
+
+
+/*clear*/
+.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}
+/*////////////////////////////////////////////*/
 
 
 
@@ -582,7 +691,7 @@ margin-top: 50px;
 
 
 #barra_abajo{
-  margin-top: 10px;
+
   height:205px;
   background-color:#222426;
 }
@@ -652,26 +761,10 @@ margin-top: 50px;
 padding-left: 10px;
 padding-right: 10px;
 
-}
-
-#barra_nosotros .submit{
-  float: right;
-  font-family: "Open Sans", Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.5em;
-  color: white;
-  padding: 0px 20px;
-  margin-right: 10px;
-  -khtml-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  background: url(../img/button_back.png) top left repeat-x ;
-  text-shadow: 1px 1px #62685E;
 
 }
+
+
 
 
 .box_titulo h3{
@@ -739,6 +832,20 @@ padding-right: 10px;
 
 }
 
+.page-footer{
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 103px;
+  margin-top: 4px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20%;
+  padding: 10px 0;
+}
 
 .title{
   display: block;
@@ -776,23 +883,19 @@ padding-right: 10px;
    width: 282px;
 }
 
-#contactForm input[type=button].submit{
-  width: 100px;
+#contactForm .submit{
   color: white;
   float: right;
   font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal !important;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.5em;
   padding: 0px 20px;
-  margin-right: 2 0px;
-  -khtml-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  margin: 10px 20px 0 0;
   background: url(../img/button_back.png) top left repeat-x;
-  text-shadow: 1px 1px #62685E;
+
 
 }
 
@@ -920,13 +1023,11 @@ height: 20px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
-
 }
 
 
 #articles section {
   float: left;
-  width: 705px;
 }
 
 #articles section ul {
