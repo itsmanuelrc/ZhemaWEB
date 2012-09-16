@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 
 //esto es cuando se haga click en submit del form
 
-	$("#contactForm #submit").click(function(){
+	$("#contactForm .submit").click(function(){
 
 	$("#error").hide();
 

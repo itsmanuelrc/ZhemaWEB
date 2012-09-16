@@ -9,7 +9,7 @@ var	search = document.getElementById('livesearch'),
 
     searchurl = document.getElementById('searchurl');
 
-  search.onkeyup = updatesearch;
+  	search.onkeyup = updatesearch;
 
 function updatesearch() {
 
@@ -31,29 +31,35 @@ $(document).ready(function(){
 // SLIDE TO
 
 				$(".l1").click(function(){
-					$("#idea1").slideto({highlight_color: '#48AE2F',slide_duration: "slow"});
+					$("#idea1").slideto({highlight_color: '#4ABCE4',slide_duration: "slow"});
 				});
 
 				$(".l2").click(function(){
-					$("#idea2").slideto({highlight_color:'yellow', slide_duration:"slow"});
+					$("#idea2").slideto({highlight_color:'#4ABCE4', slide_duration:"slow"});
 				});
 
 				$(".l3").click(function(){
-					$("#idea3").slideto({highlight_color: 'red',slide_duration: "slow"});
+					$("#idea3").slideto({highlight_color: '#4ABCE4',slide_duration: "slow"});
 				});
 
 				$(".l4").click(function(){
-					$("#idea4").slideto({highlight_color: 'blue',slide_duration: "slow"});
+					$("#idea4").slideto({highlight_color: '#4ABCE4',slide_duration: "slow"});
 				});
 
-// UITOTOP
-				var defaults = {
-	  			containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-	 		};
 
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
+	// Portfolio projects rollover --------------------------------------------- //
+
+	$('#projects-list .project').hover(function(){
+		// on rollover
+		$(this).children('.project-shadow').children('.project-thumbnail').children(".cover").stop().animate({
+			top: "100"
+		}, "fast");
+	} , function() {
+		// on out
+		$(this).children('.project-shadow').children('.project-thumbnail').children(".cover").stop().animate({
+			top: "0"
+		}, "fast");
+	});
+
 			});

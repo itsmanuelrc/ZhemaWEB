@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"l",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"page",
+				"page-footer"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"slide",
+				"slide_duration"
+			],
+			[
+				"slid",
+				"slideUp  (function)"
+			],
+			[
+				"idea",
+				"idea3"
+			],
+			[
+				"id",
+				"idea2"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-variant"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"s",
+				"slideToggle  (function)"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"h",
+				"Hide"
+			],
+			[
+				"fade",
+				"fadeOut  (function)"
+			],
+			[
+				"fa",
+				"fadeToggle  (function)"
+			],
+			[
+				"sl",
+				"slideUp  (function)"
+			],
+			[
+				"tog",
+				"toggle1"
+			],
+			[
+				"get",
+				"getElementById  (function)"
+			],
+			[
+				"sli",
+				"slideDown  (function)"
+			],
+			[
+				"font-s",
+				"font-style:   (property)"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"list-style",
+				"list-style-image"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"boder-c",
+				"border-color"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"moz-tr",
+				"-moz-transition:   (property)"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"w",
+				"width: ${1001:$SELECTION};"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"BA",
+				"background-color"
+			],
+			[
+				"W",
+				"width	zen:css_properties"
+			],
+			[
+				"webkit-tr",
+				"-webkit-transition:   (property)"
+			],
+			[
+				"o-tr",
+				"-moz-transition:   (property)"
+			],
+			[
+				"border-c",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 24776,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"COLO",
+				"Color Picker: Insert Color"
+			],
+			[
+				"COLOR",
+				"Color Picker: Insert Color"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"c",
+				"Color picker"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Repositorio_local/ZhemaWEB/zhemaweb.sublime-project",
+		"/D/Repositorio_local/ZhemaWEB/js/form-validations.js",
+		"/D/Repositorio_local/ZhemaWEB/js/libs/UItoTop/jquery.ui.totop.min.js",
+		"/D/Repositorio_local/ZhemaWEB/css/core.css",
+		"/D/Repositorio_local/ZhemaWEB/css/iView/style.css",
+		"/D/Repositorio_local/ZhemaWEB/css/foundation/foundation.css",
+		"/D/Repositorio_local/ZhemaWEB/css/slides/slide.css",
+		"/D/Repositorio_local/ZhemaWEB/css/iView/iview.css",
+		"/D/Repositorio_local/ZhemaWEB/css/general_foundicons.css",
+		"/D/Repositorio_local/ZhemaWEB/js/jquery-ui-1.8.23.custom.min.js",
+		"/D/Repositorio_local/ZhemaWEB/js/custom.js",
+		"/D/Repositorio_local/ZhemaWEB/js/list.js",
+		"/D/Repositorio_local/ZhemaWEB/sample.html",
+		"/D/Repositorio_local/ZhemaWEB/index.html",
+		"/D/Repositorio_local/ZhemaWEB/servicios.html",
+		"/D/Repositorio_local/ZhemaWEB/css/core",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/Git/Git.sublime-settings",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/User/Git.sublime-settings",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/ZenCoding/Default.sublime-keymap",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/User/zen-coding.sublime-settings",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"blogpost",
+			"h3",
+			"nav",
+			"idea",
+			"idea2",
+			"idea",
+			"ul ",
+			"ul",
+			"ul li",
+			"ideas",
+			"soporte",
+			"idea",
+			"ideas",
+			"slides",
+			"iview",
+			"iview ",
+			"iview",
+			"project-shadow",
+			"left",
+			"blogpost",
+			"banner",
+			"apDiv1",
+			"banner",
+			"header",
+			"apDiv2",
+			"logo",
+			"idea",
+			"a93a0b",
+			"comunica",
+			"idea2",
+			"ideas2",
+			"idea2",
+			"icon2",
+			"ICON2",
+			"ICONS2",
+			"ICON2",
+			"ICONS",
+			"menu",
+			"comu",
+			"comub",
+			"submit",
+			"trans",
+			"tr",
+			"page",
+			"a",
+			"pag",
+			"page",
+			"pag",
+			"footer",
+			"fo",
+			"footer",
+			"page",
+			"columns",
+			"ideas",
+			";}",
+			"lee",
+			"barra_nosotros",
+			"font ",
+			"sub",
+			"barra_contenido",
+			"content",
+			"submit",
+			"ver",
+			"page-title",
+			"page_",
+			"page_title",
+			"central",
+			"articles",
+			"title",
+			"titl",
+			"title",
+			"mini_con",
+			"list(",
+			"input",
+			"list(",
+			"list ",
+			"textContent",
+			"central",
+			"barra_contenido",
+			"list",
+			"menu",
+			"mennu",
+			"barra_ben",
+			"panes",
+			"content",
+			"list-style",
+			"panes",
+			"br",
+			"b",
+			"br",
+			"content",
+			"main",
+			"content",
+			"barra_contenido",
+			"header",
+			"excerpt",
+			"header",
+			"selec",
+			"menu",
+			"cont_menu",
+			"submit",
+			"barra_nosotros",
+			"contactForm",
+			"submit",
+			"CREATE",
+			"barra_nosotros",
+			"create",
+			"contactf",
+			"contac",
+			"#sub",
+			"submi",
+			"submit",
+			"create",
+			"contactForm",
+			"lee",
+			"content",
+			"CONTACT",
+			"MINI",
+			"barra_nosotros",
+			"trans",
+			"create",
+			"tabs-content",
+			"simpl",
+			"busq",
+			"barra_somos",
+			"caption",
+			"tabs",
+			"active"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 24776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"is_xml": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Google Drive/Pagina MANUALIDAD/Second (1)/ArtyDecorLast.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true
+}
