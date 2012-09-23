@@ -207,6 +207,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
 
 
+
+
 /* =============================================================================
    Chrome Frame Prompt
    ========================================================================== */
@@ -701,15 +703,16 @@ display: block;
 
 /*desarrollo de soporte*/
 .ideas3{font-family: "Open Sans", Arial, sans-serif !important; padding-left: 5px;   float: left;}
-.ideas3 span{font-size:25px !important; margin-bottom: 0;padding-bottom: 0; color: #b8d30b; letter-spacing: -1px; line-height:56px;}
-.ideas3 p{font-size:16px;line-height:22px;margin-top:20px;}
+.ideas3 span{font-size:25px !important; margin-bottom: 0; color: #0d83dd; letter-spacing: -1px; line-height:56px;padding: 0 10px;}
+.ideas3 p{font-size:14px;line-height:22px;margin-top:20px; text-align: justify; padding: 0 10px;}
+.ideas3 .contactus{font-size: 14px; padding: 0 10px;}
+.ideas3 .contactus a{color:#0d83dd; }
 
 .side-box {
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  padding: 20px;
   margin-right: 20px;
 }
 
@@ -719,6 +722,7 @@ display: block;
 
 #lista-soporte ul li a{
   color: gray;
+
 }
 
 #lista-soporte ul li a:hover{
@@ -729,16 +733,50 @@ display: block;
    list-style-type: none;
 }
 
-
-
-
-
-
-.picture_idea{
+.picture_idea1{
   width:364px;
   height:420px;
   background: url(../img/person_1.png) no-repeat;
 }
+
+.picture_idea2{
+  height:420px;
+  background: url(../img/person_2.png) no-repeat;
+  background-position: 0 260px;
+}
+
+
+#contact-social-list li a{
+  background:transparent url(../img/social/social_icons.png) 38px 15px no-repeat;border:1px solid #eee;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  color:#2a2a2a;
+  display:block;
+  font-size:14px;
+  font-weight:bold;
+  height:34px;
+  margin: 20px auto;
+  padding:90px 0 0 0;
+  text-align:center;
+  text-decoration:none;
+  width:125px;
+}
+
+#contact-social-list{
+  zoom:1;list-style:none;
+  margin:0 -8px}
+
+#contact-social-list:before,#contact-social-list:after{
+  content:"";display:table}
+
+#contact-social-list:after{clear:both}
+
+#contact-social-list li{display: inline-block; vertical-align: top;}
+
+#contact-social-list li#contact-social-twitter a{background-position:-125px 15px}
+#contact-social-list li#contact-social-facebook a{background-position:-287px 15px}
+#contact-social-list li#contact-social-googleplus a{background-position:-449px 15px}
 
 
 

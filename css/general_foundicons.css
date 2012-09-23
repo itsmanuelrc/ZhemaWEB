@@ -7,6 +7,8 @@
   font-style: normal;
 }
 
+
+
 /* global foundicon styles */
 [class*="foundicon-"] {
   display: inline;
@@ -25,6 +27,7 @@
   font-style: normal;
   text-decoration: inherit;
 }
+
 
 /* icons */
 .foundicon-settings:before {
