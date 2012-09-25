@@ -264,7 +264,6 @@ a:visited{
 }
 
 body {
-  background: #E8EAEB url(../img/body-bg.png);
   border-bottom: 1px solid #fafafa;
 }
 
@@ -462,15 +461,32 @@ height: 100px;
 
 /*  CONTENIDO */
 
+
 #barra_contenido{
   color:#666666;
   font-family: Verdana, Arial;
   font-size:12px;
   background-color: white;
   padding-bottom: 10px;
-  box-shadow: 2px 0 10px;
+  /*box-shadow: 2px 0 10px;*/
 
 }
+#fondo{
+
+  background:#def1fa url(../img/bgHeroHome.jpg) repeat-x center 100%;
+  display:block;
+
+}
+#fondo .nivel1{
+background:url(../img/icons-home.png) no-repeat  center 100%;
+}
+
+#fondo .nivel2{
+  background:url(../img/clouds-home.png) no-repeat center 100%;
+  top: 189px;
+  width:100%;
+}
+
 #slide{
  height: 317px;
  margin-top: 20px;
@@ -692,13 +708,13 @@ display: block;
 
 .ideas{border-top:10px solid #b8d30b; font-family: "Open Sans", Arial, sans-serif !important;}
 .ideas span{font-size:50px !important;line-height:56px;color:#b8d30b;margin-top:30px;}
-.ideas p{font-size:16px;line-height:22px;margin-top:20px;}
+.ideas p{font-size:14px;line-height:22px;margin-top:20px;}
 
 
 /*desarrollo de ideas*/
 .ideas2{font-family: "Open Sans", Arial, sans-serif !important; border-top: 10px solid #f16529; padding-left: 5px;}
 .ideas2 span{font-size:25px !important; margin-bottom: 0;padding-bottom: 0; font-weight: bold; color: #f16529;line-height:56px;}
-.ideas2 p{font-size:16px;line-height:22px;margin-top:20px;}
+.ideas2 p{font-size:14px;line-height:22px;margin-top:20px;}
 .ideas2 h4{margin: 0;}
 
 /*desarrollo de soporte*/
@@ -708,11 +724,20 @@ display: block;
 .ideas3 .contactus{font-size: 14px; padding: 0 10px;}
 .ideas3 .contactus a{color:#0d83dd; }
 
-.side-box {
-  border: 1px solid #d9d9d9;
+
+.side-box ,.box-color{
+   border: 1px solid #cbe3f2;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  box-shadow: 1px 1px 4px #cce5f7;
+}
+
+.box-color{
+  padding: 20px;
+}
+
+.side-box {
   margin-right: 20px;
 }
 
@@ -805,13 +830,10 @@ display: block;
 .clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}
 /*////////////////////////////////////////////*/
 
-
-
 #barra_clientes{
- height: 184px;
-margin-top: 50px;
+  height: 184px;
+  margin-top: 50px;
 }
-
 
 
 #barra_abajo{
@@ -824,7 +846,6 @@ margin-top: 50px;
   height:49px;
   background-color:#222426;
 }
-
 
 
 /* MENU DE ABAJO */
@@ -1166,7 +1187,7 @@ height: 20px;
   margin-left: 30px;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  background: url(../img/portfolio-divider.png) no-repeat bottom center;
+  border-bottom:5px solid #EDEDEB;
 }
 
 #projects-list .project h1 a{
