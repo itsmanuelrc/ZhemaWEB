@@ -264,7 +264,7 @@ a:visited{
 }
 
 body {
-  border-bottom: 1px solid #fafafa;
+  background-color: #f0f7fc;
 }
 
 
@@ -463,14 +463,11 @@ height: 100px;
 
 
 #barra_contenido{
-  color:#666666;
-  font-family: Verdana, Arial;
-  font-size:12px;
-  background-color: white;
+  color:#404040;
+  background-color: #f0f7fc;
   padding-bottom: 10px;
-  /*box-shadow: 2px 0 10px;*/
-
 }
+
 #fondo{
 
   background:#def1fa url(../img/bgHeroHome.jpg) repeat-x center 100%;
@@ -598,9 +595,8 @@ transition: .3s;
 
 
 #barra_nosotros{
-  height: 184px;
+  min-height: 184px;
   margin-top: 20px;
-  text-align: justify;
 
 }
 
@@ -660,10 +656,10 @@ display: block;
 
 
 #barra_logos h2
-{text-align:center;font-size:22px;position:relative;margin-bottom:40px}
+{text-align:center;font-size:22px;position:relative;margin-bottom:40px;color:#003366}
 
 #barra_logos  h2:before,#barra_logos  h2:after
-{content:"";position:absolute;width:360px;height:1px;background:#ddd;left:0;top:18px}
+{content:"";position:absolute;width:360px;height:2px;background:#cce5f7;left:0;top:18px}
 
 #barra_logos  h2:after{left:auto;right:0}
 
@@ -731,10 +727,13 @@ display: block;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   box-shadow: 1px 1px 4px #cce5f7;
+  background-color: #deeffa;
+  color:#404040;
 }
 
 .box-color{
   padding: 20px;
+
 }
 
 .side-box {
@@ -772,7 +771,7 @@ display: block;
 
 
 #contact-social-list li a{
-  background:transparent url(../img/social/social_icons.png) 38px 15px no-repeat;border:1px solid #eee;
+  background:transparent url(../img/social/social_icons.png) 38px 15px no-repeat;border:1px solid #cbe3f2;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
   border-radius:5px;
@@ -903,10 +902,11 @@ display: block;
 
 
 #barra_nosotros p{
-padding-left: 10px;
-padding-right: 10px;
-
-
+  line-height:22px;
+  margin-bottom:25px;
+  padding: 0 10px;
+  font:14px "Open Sans", Arial, sans-serif ;
+  color: #404040;
 }
 
 
@@ -1187,7 +1187,7 @@ height: 20px;
   margin-left: 30px;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  border-bottom:5px solid #EDEDEB;
+  border-bottom:5px solid #cce5f7;
 }
 
 #projects-list .project h1 a{
