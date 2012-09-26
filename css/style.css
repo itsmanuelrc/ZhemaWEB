@@ -765,13 +765,14 @@ display: block;
 
 .picture_idea2{
   height:420px;
-  background: url(../img/person_2.png) no-repeat;
+  background: url(../img/person_2.png) no-repeat #FFFFFF;
   background-position: 0 260px;
 }
 
 
 #contact-social-list li a{
-  background:transparent url(../img/social/social_icons.png) 38px 15px no-repeat;border:1px solid #cbe3f2;
+  background:transparent url(../img/social/social_icons.png) 38px 15px no-repeat;
+  border:1px solid #cbe3f2;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
   border-radius:5px;
@@ -785,6 +786,7 @@ display: block;
   text-align:center;
   text-decoration:none;
   width:125px;
+  background-color: white;
 }
 
 #contact-social-list{
