@@ -648,10 +648,11 @@ transition: .3s;
 
 /* BARRA CONTENIDO DE IDEAS DE LOGO*/
 #barra_logos{
-font-family: Arial;
-font-size: 16px;
-font-weight: 22px;
-display: block;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 22px;
+  display: block;
+
 }
 
 
@@ -670,17 +671,88 @@ display: block;
 
 /*clientes*/
 
-.testimonial{width:350px;height:280px;margin:0 20px;display:inline-block;text-align:center}
-.testimonial cite{color:#888;font-size:16px;display:table-cell;padding:0 21px 0 131px;vertical-align:middle}
+.testimonial{width:350px;height:280px;margin:0 20px;display:inline-block;text-align:center;color: white;}
+.testimonial cite{font-size:16px;padding:0 21px 0 131px;vertical-align:middle}
 .testimonial p{position:absolute;font-weight:600;bottom:-17px;display:block;left:21px;white-space:nowrap}
-.testimonial img{display:block;float:none;margin:0 auto;position:relative;top:0;padding-bottom:20px; width:91px;height: 91px; }
+.testimonial img{display:block;float:none;margin:0 auto;position:relative;top:0;margin-bottom:20px; width:91px;height: 91px; border: 4px solid white; box-shadow: 1px 1px 5px #0C4961; }
 .testimonial cite{padding:0}
 .testimonial p{position:relative;bottom:0;left:0;padding:10px 0 0;white-space:normal}
 
 .testimonials h2{font-size:30px;color:#565656;text-shadow:0 1px 1px #fff;padding-top:10px;margin-bottom:10px}
-.testimonials{text-align:center;position:relative}
+.testimonials{text-align:center;position:relative; margin-top: 20px;}
 
+/* TWITTER --------------------------------------------------------*/
 
+#twitter{
+  position: relative;
+  background: #f2f1f1;
+  height: 80px;
+  width: 100%;
+  background: #f2f1f1 url(../img/twitter-border.png) repeat-x;
+}
+
+#twitter #bird{
+  position: absolute;
+  top: 2px;
+  left: 70px;
+}
+
+#twitter #prev-tweet{
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 30px;
+  width: 30px;
+  height: 35px;
+  background: transparent url(../img/prev-arrow.png) no-repeat top left;
+}
+
+#twitter #next-tweet{
+  display: block;
+  position: absolute;
+  top: 21px;
+  right: 30px;
+  width: 30px;
+  height: 35px;
+  background: transparent url(../img/next-arrow.png) no-repeat top right;
+}
+
+#twitter #tweets .tweet_list{
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 200px;
+  width: 700px;
+  height: 75px;
+}
+
+#twitter #tweets .tweet_list li{
+  display: block;
+  width: 700px;
+  height: 80px; /* original height 170px */
+  font-size: 16px;
+  line-height: 1.5em;
+  font-style: italic;
+  color: #838383;
+  padding-top: 25px;
+}
+
+#twitter #tweets .tweet_list li .tweet_time a{
+  text-decoration: none;
+  color: #ccc;
+}
+
+#twitter #tweets .tweet_list li a{
+  text-decoration: none;
+  color: #37b2d1;
+}
+
+#twitter #tweets p.loading{
+  margin-left: 200px;
+  color: #ccc;
+  padding-top: 16px;
+  font-style: italic;
+}
 
 .large-icons i
 { -webkit-transition: color .5s;
@@ -702,23 +774,41 @@ display: block;
 
 /* IDEAS*/
 
-.ideas{border-top:10px solid #b8d30b; font-family: "Open Sans", Arial, sans-serif !important;}
+#idea1 .contenido{
+  background-color: white;
+  border: 1px solid #cbe3f2;
+}
+
+#box-love{
+  /*border: 1px solid #cbe3f2;*/
+  /*background: url(../img/box_love.png);*/
+  margin-bottom: 20px;
+  background-color: #00b6de;
+  border-radius: 10px;
+}
+
+
+.ideas{border-top:10px solid #b8d30b; font-family: "Open Sans", Arial, sans-serif !important;padding:10px;}
 .ideas span{font-size:50px !important;line-height:56px;color:#b8d30b;margin-top:30px;}
-.ideas p{font-size:14px;line-height:22px;margin-top:20px;}
+.ideas p{font-size:14px;line-height:22px;margin-top:20px; border-top: 1px dashed  #b8d30b; padding-top: 20px;}
 
 
 /*desarrollo de ideas*/
+
 .ideas2{font-family: "Open Sans", Arial, sans-serif !important; border-top: 10px solid #f16529; padding-left: 5px;}
 .ideas2 span{font-size:25px !important; margin-bottom: 0;padding-bottom: 0; font-weight: bold; color: #f16529;line-height:56px;}
 .ideas2 p{font-size:14px;line-height:22px;margin-top:20px;}
 .ideas2 h4{margin: 0;}
+.ideas2 a{color:#0d83dd;}
 
 /*desarrollo de soporte*/
 .ideas3{font-family: "Open Sans", Arial, sans-serif !important; padding-left: 5px;   float: left;}
 .ideas3 span{font-size:25px !important; margin-bottom: 0; color: #0d83dd; letter-spacing: -1px; line-height:56px;padding: 0 10px;}
 .ideas3 p{font-size:14px;line-height:22px;margin-top:20px; text-align: justify; padding: 0 10px;}
-.ideas3 .contactus{font-size: 14px; padding: 0 10px;}
+.ideas3 .contactus{font-size: 13px; padding: 0 10px;}
 .ideas3 .contactus a{color:#0d83dd; }
+
+
 
 
 .side-box ,.box-color{
@@ -727,18 +817,27 @@ display: block;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   box-shadow: 1px 1px 4px #cce5f7;
-  background-color: #deeffa;
+  background-color:#ecf7fa;
   color:#404040;
 }
 
 .box-color{
   padding: 20px;
-
+  background-color: white;
 }
+
+.box-color strong{
+  border-bottom: 1px dashed #cbe3f2; padding-bottom: 10px;
+  }
 
 .side-box {
   margin-right: 20px;
 }
+
+#box-comenzar{
+  background: url(../img/box_comenzar.png);
+}
+
 
 #idea3 .support-box{
   display: block;
@@ -766,7 +865,8 @@ display: block;
 .picture_idea2{
   height:420px;
   background: url(../img/person_2.png) no-repeat #FFFFFF;
-  background-position: 0 260px;
+  background-position: 0 200px;
+
 }
 
 
@@ -804,17 +904,39 @@ display: block;
 #contact-social-list li#contact-social-facebook a{background-position:-287px 15px}
 #contact-social-list li#contact-social-googleplus a{background-position:-449px 15px}
 
+#sub_social span{
+  color: #d45500;
+  font-family: 'Averia Sans Libre', cursive;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
 
+/* ICONOS DE INNOVACION  */
 
+.columns{margin:0;font-size: 14px;}
 
+.columns .foundicon-checkmark{
+  color:#64b92c;
+}
 
-.columns{margin:0;}
+.columns .foundicon-flag {
+  color:#d45500;
+}
+
+.columns .foundicon-laptop {
+  color:#57afe6;
+}
+
+.columns .foundicon-tools {
+  color:#002750;
+}
 
 .columns div{
   display: inline-block;
   margin: 0 20px;
   padding: 10px;
-  width: 300px;
+  width: 400px;
 }
 .columns .services-link{
   display: inline-block;
@@ -1189,14 +1311,16 @@ height: 20px;
   margin-left: 30px;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  border-bottom:5px solid #cce5f7;
 }
 
 #projects-list .project h1 a{
+  color: #0d83dd;
   display: block;
-  text-decoration: none;
+  font-size:25px !important;
+  letter-spacing: -1px;
+  line-height:56px;
   margin-bottom: 20px;
-  color: #51565b;
+  text-decoration: none;
 }
 
 
@@ -1204,13 +1328,12 @@ height: 20px;
 #projects-list .project .project-thumbnail{
   position: relative;
   overflow: hidden;
-  width: 250px;
+  width: 240px;
   height: 152px;
   margin-bottom: 20px;
-  background: #4ABCE4;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+  background: #57afe6;
+  border: 5px solid white;
+  box-shadow: 1px 1px 10px #C1C0B3;
 }
 
 #projects-list .project .project-thumbnail .cover{
@@ -1220,18 +1343,31 @@ height: 20px;
 }
 
 #projects-list .project .project-thumbnail .meta{
+  color: white;
   display: block;
-  width: 252px;
+  width: 260px;
   height: 152px;
   font-size: 12px;
-  line-height: 1.5em;
+  line-height: 18px;
+  font-family:  Helvetica, Arial, sans-serif;
   position: absolute;
   top:10px;
-  left: 10px;
+  list-style-type: none;
+}
+
+#projects-list .project .project-thumbnail .meta a{
+  font: 15px "Helvetica Neue", Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px #292929;
+
 }
 
 #projects-list .project .parrafo{
-  font-size: 14px;
+  line-height:22px;
+  /*margin-bottom:25px;*/
+  font:14px "Open Sans", Arial, sans-serif ;
+  color: #404040;
+
 }
 
 

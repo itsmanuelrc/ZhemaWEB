@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"H",
+				"Arial, Helvetica, sans-serif"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"backgroud",
+				"background-color:   (property)"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom	zen:css_properties"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
 				"ideas",
 				"ideas3"
 			],
@@ -14,22 +66,6 @@
 			[
 				"ba",
 				"background-color"
-			],
-			[
-				"back",
-				"background-position"
-			],
-			[
-				"pa",
-				"padding-bottom"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"te",
-				"text-decoration"
 			],
 			[
 				"tex",
@@ -58,10 +94,6 @@
 			[
 				"borde",
 				"border-bottom"
-			],
-			[
-				"padd",
-				"padding-right"
 			],
 			[
 				"p",
@@ -112,16 +144,8 @@
 				"font-weight"
 			],
 			[
-				"bak",
-				"background-color"
-			],
-			[
 				"inli",
 				"inline-block"
-			],
-			[
-				"margi",
-				"margin-bottom"
 			],
 			[
 				"ar",
@@ -170,14 +194,6 @@
 			[
 				"font-s",
 				"font-style:   (property)"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"border",
-				"border-right"
 			],
 			[
 				"paddi",
@@ -251,7 +267,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 24990,
+				"buffer_size": 31051,
 				"line_ending": "Unix"
 			}
 		},
@@ -259,15 +275,15 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 31041,
+				"buffer_size": 34051,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/general_foundicons.css",
+			"file": "css/social.css",
 			"settings":
 			{
-				"buffer_size": 3165,
+				"buffer_size": 659,
 				"line_ending": "Unix"
 			}
 		}
@@ -328,16 +344,17 @@
 	},
 	"file_history":
 	[
+		"/D/Repositorio_local/ZhemaWEB/css/general_foundicons.css",
+		"/D/Repositorio_local/ZhemaWEB/css/foundation/foundation.css",
+		"/D/Sublime Text 2.0.1 x64/Data/Packages/Git/Git.sublime-settings",
 		"/D/Repositorio_local/ZhemaWEB/css/social_foundicons.css",
 		"/D/Repositorio_local/ZhemaWEB/zhemaweb.sublime-project",
 		"/D/Repositorio_local/ZhemaWEB/js/form-validations.js",
 		"/D/Repositorio_local/ZhemaWEB/js/libs/UItoTop/jquery.ui.totop.min.js",
 		"/D/Repositorio_local/ZhemaWEB/css/core.css",
 		"/D/Repositorio_local/ZhemaWEB/css/iView/style.css",
-		"/D/Repositorio_local/ZhemaWEB/css/foundation/foundation.css",
 		"/D/Repositorio_local/ZhemaWEB/css/slides/slide.css",
 		"/D/Repositorio_local/ZhemaWEB/css/iView/iview.css",
-		"/D/Repositorio_local/ZhemaWEB/css/general_foundicons.css",
 		"/D/Repositorio_local/ZhemaWEB/js/jquery-ui-1.8.23.custom.min.js",
 		"/D/Repositorio_local/ZhemaWEB/js/custom.js",
 		"/D/Repositorio_local/ZhemaWEB/js/list.js",
@@ -345,7 +362,6 @@
 		"/D/Repositorio_local/ZhemaWEB/index.html",
 		"/D/Repositorio_local/ZhemaWEB/servicios.html",
 		"/D/Repositorio_local/ZhemaWEB/css/core",
-		"/D/Sublime Text 2.0.1 x64/Data/Packages/Git/Git.sublime-settings",
 		"/D/Sublime Text 2.0.1 x64/Data/Packages/User/Git.sublime-settings",
 		"/D/Sublime Text 2.0.1 x64/Data/Packages/ZenCoding/Default.sublime-keymap",
 		"/D/Sublime Text 2.0.1 x64/Data/Packages/ZenCoding/zen-coding.sublime-settings",
@@ -354,7 +370,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -368,6 +384,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"idea",
+			"barra_nosotr",
+			"desarrollo",
+			"project-shadow",
+			"desarrollo ",
+			"contenido",
+			"idea2",
+			"idea1",
+			"barra_nosotros",
+			"ideas",
+			"idea1",
+			"barra_nosotros",
+			"side",
+			"logo_",
+			"ogo_",
+			"ogo",
+			"idea1",
+			"ideas",
+			"conte",
+			"header",
+			"container",
+			"list",
+			"idea1",
+			"idea2",
+			"transparent",
+			"ideas3",
 			"brindar",
 			"ideas3",
 			"list",
@@ -469,33 +511,7 @@
 			"b",
 			"br",
 			"content",
-			"main",
-			"content",
-			"barra_contenido",
-			"header",
-			"excerpt",
-			"header",
-			"selec",
-			"menu",
-			"cont_menu",
-			"submit",
-			"barra_nosotros",
-			"contactForm",
-			"submit",
-			"CREATE",
-			"barra_nosotros",
-			"create",
-			"contactf",
-			"contac",
-			"#sub",
-			"submi",
-			"submit",
-			"create",
-			"contactForm",
-			"lee",
-			"content",
-			"CONTACT",
-			"MINI"
+			"main"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -521,15 +537,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 24990,
+						"buffer_size": 31051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6063,
-								6063
+								26184,
+								26184
 							]
 						],
 						"settings":
@@ -627,7 +643,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2736.0,
+						"translation.y": 4794.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -637,15 +653,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 31041,
+						"buffer_size": 34051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17955,
-								17955
+								18105,
+								18105
 							]
 						],
 						"settings":
@@ -742,25 +758,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10253.0,
+						"translation.y": 14230.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/general_foundicons.css",
+					"file": "css/social.css",
 					"settings":
 					{
-						"buffer_size": 3165,
+						"buffer_size": 659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3164,
-								3164
+								166,
+								166
 							]
 						],
 						"settings":
@@ -853,8 +869,7 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -871,7 +886,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
