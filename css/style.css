@@ -795,11 +795,61 @@ transition: .3s;
 
 /*desarrollo de ideas*/
 
-.ideas2{font-family: "Open Sans", Arial, sans-serif !important; border-top: 10px solid #f16529; padding-left: 5px;}
-.ideas2 span{font-size:25px !important; margin-bottom: 0;padding-bottom: 0; font-weight: bold; color: #f16529;line-height:56px;}
-.ideas2 p{font-size:14px;line-height:22px;margin-top:20px;}
-.ideas2 h4{margin: 0;}
+.ideas2{
+  font-family: "Open Sans", Arial, sans-serif !important;
+  max-width: 250px;
+  /*background: url(../img/person_1.png) no-repeat;*/
+}
+
+.ideas2 span{font-size:18px !important; font-weight: bold; color: white;line-height:56px; background-color: #f16529; padding: 5px;}
 .ideas2 a{color:#0d83dd;}
+.ideas2 h4{margin: 0;}
+.ideas2 p{font-size:14px;line-height:22px;}
+
+#idea2 #contenido-porta{
+    text-align: center;
+}
+#idea2 #contenido-porta section{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 20px;
+  position:relative;
+}
+
+#idea2 #contenido-porta section .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  background:#20ACE8;
+  color:#fff;
+  text-align:center;
+  opacity:0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  -moz-opacity:0;
+  filter: alpha(opacity=0);
+  -ms-transition:opacity .5s ease;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+
+#idea2 #contenido-porta section .overlay h2{
+  margin:10px;
+  padding:80px 20px 0 20px;
+  color:#fff;
+  text-shadow: 1px 1px 2px #272822;
+}
+
+
+#idea2 #contenido-porta section .overlay:hover{
+  opacity:0.9;
+  -moz-opacity:0.9;
+  filter: alpha(opacity=90);
+}
+
 
 /*desarrollo de soporte*/
 .ideas3{font-family: "Open Sans", Arial, sans-serif !important; padding-left: 5px;   float: left;}
@@ -856,11 +906,6 @@ transition: .3s;
    list-style-type: none;
 }
 
-.picture_idea1{
-  width:364px;
-  height:420px;
-  background: url(../img/person_1.png) no-repeat;
-}
 
 .picture_idea2{
   height:420px;

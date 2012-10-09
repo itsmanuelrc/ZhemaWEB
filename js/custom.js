@@ -1,7 +1,5 @@
 jQuery(document).ready(function($){
 
-
-
 	// Thumbs rollover --------------------------------------------- //
 
 	$(".thumbs-rollover li a img").hover(function(){
@@ -17,7 +15,6 @@ jQuery(document).ready(function($){
 	});
 
 
- // ESTO ES
 
 });
 
