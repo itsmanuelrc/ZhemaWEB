@@ -222,7 +222,12 @@ td { vertical-align: top; }
 
 /*//////////////////////*/
 
-
+/*FUENTES*/
+/* FUENTE PERSONAL*/
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+}
 
 /* ayuda*/
 
@@ -267,11 +272,9 @@ body {
   background-color: #f0f7fc;
 }
 
-
-ul li a{
-
+footer{
+  background: url(../img/body_bg.jpg) repeat;
 }
-
 #about_zhema{
   color: #bbbaba;
   font-size: 13px;
@@ -656,11 +659,20 @@ transition: .3s;
 }
 
 
-#barra_logos h2
-{text-align:center;font-size:22px;position:relative;margin-bottom:40px;color:#003366}
+#barra_logos h2{
+  text-align:center;
+  font-size:30px;
+  font-family: 'BebasNeue', Arial, Helvetica, sans-serif;;
+  position:relative;
+  margin-bottom:40px;
+  color:#003366;
+  line-height: 18px;
+  font-weight:200 !important;
+  padding: 10px;
+}
 
 #barra_logos  h2:before,#barra_logos  h2:after
-{content:"";position:absolute;width:360px;height:2px;background:#cce5f7;left:0;top:18px}
+{content:"";position:absolute;width:360px;height:2px;background:#9CCCEF;left:0;top:18px}
 
 #barra_logos  h2:after{left:auto;right:0}
 
@@ -671,14 +683,12 @@ transition: .3s;
 
 /*clientes*/
 
-.testimonial{width:350px;height:280px;margin:0 20px;display:inline-block;text-align:center;color: white;}
-.testimonial cite{font-size:16px;padding:0 21px 0 131px;vertical-align:middle}
+.testimonial{width:350px;height:280px;margin:0 20px;display:inline-block;text-align:center;color: #405d63;}
+.testimonial cite{font-size:16px;padding:0 21px 0 131px;vertical-align:middle;padding:0}
 .testimonial p{position:absolute;font-weight:600;bottom:-17px;display:block;left:21px;white-space:nowrap}
 .testimonial img{display:block;float:none;margin:0 auto;position:relative;top:0;margin-bottom:20px; width:91px;height: 91px; border: 4px solid white; box-shadow: 1px 1px 5px #0C4961; }
-.testimonial cite{padding:0}
 .testimonial p{position:relative;bottom:0;left:0;padding:10px 0 0;white-space:normal}
-
-.testimonials h2{font-size:30px;color:#565656;text-shadow:0 1px 1px #fff;padding-top:10px;margin-bottom:10px}
+.testimonial a{color:#0d83dd}
 .testimonials{text-align:center;position:relative; margin-top: 20px;}
 
 /* TWITTER --------------------------------------------------------*/
@@ -777,18 +787,16 @@ transition: .3s;
 #idea1 .contenido{
   background-color: white;
   border: 1px solid #cbe3f2;
+   font-family: "Open Sans", Arial, sans-serif;
 }
 
 #box-love{
-  /*border: 1px solid #cbe3f2;*/
-  /*background: url(../img/box_love.png);*/
   margin-bottom: 20px;
-  background-color: #00b6de;
-  border-radius: 10px;
+  background: url(../img/message_wrapper_bg.jpg);
 }
 
 
-.ideas{border-top:10px solid #b8d30b; font-family: "Open Sans", Arial, sans-serif !important;padding:10px;}
+.ideas{border-top:10px solid #b8d30b;padding:10px;}
 .ideas span{font-size:50px !important;line-height:56px;color:#b8d30b;margin-top:30px;}
 .ideas p{font-size:14px;line-height:22px;margin-top:20px; border-top: 1px dashed  #b8d30b; padding-top: 20px;}
 
@@ -797,7 +805,7 @@ transition: .3s;
 
 .ideas2{
   font-family: "Open Sans", Arial, sans-serif !important;
-  max-width: 250px;
+  max-width: 290px;
   /*background: url(../img/person_1.png) no-repeat;*/
 }
 
@@ -812,7 +820,7 @@ transition: .3s;
 #idea2 #contenido-porta section{
   display: inline-block;
   vertical-align: top;
-  margin: 10px 20px;
+  margin: 10px 10px;
   position:relative;
 }
 
@@ -820,8 +828,8 @@ transition: .3s;
   position:absolute;
   top:0;
   left:0;
-  background:#20ACE8;
-  color:#fff;
+  background:#f0f7fc;
+  color:#003366;
   text-align:center;
   opacity:0;
   padding:0;
@@ -836,11 +844,10 @@ transition: .3s;
   transition: opacity .5s ease;
 }
 
-#idea2 #contenido-porta section .overlay h2{
+#idea2 #contenido-porta section .overlay h3{
   margin:10px;
   padding:80px 20px 0 20px;
-  color:#fff;
-  text-shadow: 1px 1px 2px #272822;
+  color:#003366;
 }
 
 
@@ -1004,15 +1011,14 @@ transition: .3s;
 }
 
 
-#barra_abajo{
 
+#barra_abajo{
   height:205px;
-  background-color:#222426;
 }
+
 
 #barra_sociales{
   height:49px;
-  background-color:#222426;
 }
 
 
