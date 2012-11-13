@@ -12,9 +12,9 @@
 	padding: 1px;
 	border-radius: 5px;
 	position: relative;
-	-webkit-box-shadow: 0 18px 30px -18px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 0 18px 30px -18px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 18px 30px -18px rgba(0, 0, 0, 0.5);
+/* 	-webkit-box-shadow: 0 18px 30px -18px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 18px 30px -18px rgba(0, 0, 0, 0.5);
+box-shadow: 0 18px 30px -18px rgba(0, 0, 0, 0.5); */
 	margin: auto;
 	overflow: hidden;
 }
