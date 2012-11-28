@@ -229,6 +229,8 @@ td { vertical-align: top; }
     src: url(fonts/BebasNeue.otf);
 }
 
+
+
 /* ayuda*/
 
 .rojo{
@@ -248,25 +250,11 @@ ul li a:hover {
   color: #19a9e5;
 }
 
-
-
  nav ul{
   margin: 0;
   font-size: 0px;
- }
-
-a{
-  text-decoration: none;
 }
 
-a:hover{
-  text-decoration: none;
-  color: white;
-}
-
-a:visited{
-  color:white;
-}
 
 body {
   background-color: #f0f7fc;
@@ -297,10 +285,9 @@ footer{
  }
 
  #menu ul li a{
-color: white;
-font-family: Arial;
-
-text-shadow:1px 1px 5px rgba(0,0,0,.5);
+  color: white;
+  font-family: Arial;
+  text-shadow:1px 1px 5px rgba(0,0,0,.5);
 
  }
 
@@ -475,18 +462,18 @@ background:url(../img/icons-home.png) no-repeat  center 100%;
   color: #fff;
 }
 
-
 #mini_contact input,
 #mini_contact textarea{
+background: #fff;
+ border-radius: 5px;
+ border: 3px solid #FFF;
  height: 30px;
- width: 200px;
  margin-top: 10px;
  padding: 0 10px;
+ width: 200px;
 -khtml-border-radius: 5px;
  -moz-border-radius: 5px;
  -webkit-border-radius: 5px;
- border-radius: 5px;
- border: 3px solid #FFF;
   outline: 0;
 /* transiciones*/
 -o-transition: .3s;
@@ -511,11 +498,18 @@ transition: .3s;
   font-weight: bold;
   letter-spacing: 0.05em;
   line-height: 1.5em;
-  padding: 20px 0 10px 0;
+ /*  padding: 20px; */
   text-transform: uppercase;
   text-shadow: 1px 1px #679b1f;
-  height: 40px !important;
+
  }
+#mini_contact input[type="submit"]{
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  height: 70px !important;
+  margin-top: 0;
+}
 
 #button_contact:hover {
   background-color: #8BA71D;
@@ -582,20 +576,28 @@ transition: .3s;
   font-size: 100px;
 }
 
-    @media only screen and (max-device-width: 768px) {
-      .large-icons i { margin-right: 56px; }
-    }
+@media only screen and (max-device-width: 768px) {
+  .large-icons i { margin-right: 56px; }
+}
 
 
 
 /* IDEAS*/
 
 #idea1 .contenido,
-#idea3 .contenido{
+#idea2 .contenido{
   background-color: white;
   border: 1px solid #cbe3f2;
   font-family: "Open Sans", Arial, sans-serif;
 }
+
+
+#idea2.support-box{
+  display: block;
+}
+
+
+
 
 #idea4 .contenido{
   margin-bottom: 10px;
@@ -622,12 +624,12 @@ transition: .3s;
   background-position: left bottom ;
   height: 320px;
 }
-#idea2 #contenido-porta{
+#idea3 #contenido-porta{
     text-align: center;
 }
 
 
-#idea2 #contenido-porta section{
+#idea3 #contenido-porta section{
   display: inline-block;
   vertical-align: top;
   margin: 10px 5px;
@@ -635,11 +637,11 @@ transition: .3s;
 
 }
 
-#idea2 #contenido-porta section.element{
+#idea3 #contenido-porta section.element{
   border: 5px solid white;
 }
 
-#idea2 #contenido-porta section .overlay{
+#idea3 #contenido-porta section .overlay{
   position:absolute;
   top:0;
   left:0;
@@ -659,7 +661,7 @@ transition: .3s;
   transition: opacity .5s ease;
 }
 
-#idea2 #contenido-porta section .overlay h3{
+#idea3 #contenido-porta section .overlay h3{
   /*margin:10px;*/
   color:#003366;
   padding:80px 20px 0 20px;
@@ -669,7 +671,7 @@ transition: .3s;
   text-align: center;
 }
 
-#idea2 #contenido-porta section .overlay p{
+#idea3 #contenido-porta section .overlay p{
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
   text-transform: uppercase;
@@ -677,7 +679,7 @@ transition: .3s;
 }
 
 
-#idea2 #contenido-porta section .overlay:hover{
+#idea3 #contenido-porta section .overlay:hover{
   opacity:0.9;
   -moz-opacity:0.9;
   filter: alpha(opacity=90);
@@ -706,9 +708,6 @@ transition: .3s;
 }
 
 
-#idea3 .support-box{
-  display: block;
-}
 
 
 .picture_idea2{
@@ -988,6 +987,26 @@ transition: .3s;
 
 #contactForm textarea{
   width: 380px;
+}
+/* Icono de sonrisa al enviar CONTACTO */
+#mini_contact .smiley{
+  color: #fff;
+  font-size: 40px;
+}
+
+#mini_contact .parrafo{
+  font-size: 17px !important;
+  color: #fff;
+}
+
+#messageContact{
+  color: #0d83dd;
+  font-size:25px;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  line-height:56px;
+  text-align: center;
+  padding: 0 10px;}
 }
 
 .one-column{
