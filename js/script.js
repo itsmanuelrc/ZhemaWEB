@@ -5,20 +5,24 @@
 $(document).ready(function(){
 
 	$(".l1").click(function(){
-					$("#idea1 h2").slideto({highlight_color: '#4ABCE4',slide_duration: "slow"});
+					$("#idea1").slideto({highlight: false,slide_duration: "slow"});
 	});
 
 	$(".l2").click(function(){
-					$("#idea2 h2").slideto({highlight_color: '#4ABCE4', slide_duration: "slow"});
+					$("#idea2").slideto({highlight: false, slide_duration: "slow"});
 	});
 
 	$(".l3").click(function(){
-					$("#idea3 h2").slideto({highlight_color: '#4ABCE4',slide_duration: "slow"});
+					$("#idea3").slideto({highlight: false,slide_duration: "slow"});
 	});
 
 	$(".l4").click(function(){
-					$("#idea4 h2").slideto({highlight_color: '#4ABCE4',slide_duration: "slow"});
+					$("#idea4").slideto({highlight: false,slide_duration: "slow"});
 	});
+
+  $(".l5").click(function(){
+          $("header").slideto({highlight: false,slide_duration: "slow"});
+  });
 
 
 
@@ -54,3 +58,9 @@ $(document).ready(function(){
   });
 
 });
+
+
+
+
+
+

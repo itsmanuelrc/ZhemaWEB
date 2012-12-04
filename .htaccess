@@ -298,6 +298,8 @@ FileETag None
 # BrowserMatch "Opera" !brokenvary
 # SetEnvIf brokenvary 1 force-no-vary
 
+BrowserMatch MSIE ie
+Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
 
 
 # ----------------------------------------------------------------------

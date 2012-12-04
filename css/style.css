@@ -50,8 +50,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; text-decoration: none !important; }
-a:visited { color: #551a8b; }
+a { color: #0D83DD; text-decoration: none !important; }
+a:visited { color: #0D83DD; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
 
@@ -235,6 +235,7 @@ td { vertical-align: top; }
 
 .rojo{
   background-color: red;
+
 }
 
 .azul{
@@ -276,7 +277,7 @@ footer{
   padding-top: 20px;
   text-align: center;
   vertical-align: top;
-  width: 25%;
+  width: 20%;
   text-transform: uppercase;
   /* transicion*/
   -webkit-transition: all 0.25s linear;
@@ -295,15 +296,56 @@ footer{
   background-color:#4ABCE4;
  }
 
-#cont_menu{
+ #menu figure img{
+     padding-top: 0 !important;
+ }
+ #menu figure img:hover{
 
+    -webkit-animation:
+      rotateLogo 0.8s 1;
+    -moz-animation:
+      rotateLogo 0.8s 1;
+    -o-animation:
+      rotateLogo 0.8s 1;
+    -ms-animation:
+      rotateLogo 0.8s 1;
+ }
+
+
+@-webkit-keyframes rotateLogo {
+    from {-webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+    }
+@-moz-keyframes rotateLogo {
+from { -moz-transform:rotate(0deg);}
+  to { -moz-transform:rotate(360deg);}
+}
+@-o-keyframes rotateLogo {
+from { -o-transform:rotate(0deg);}
+  to { -o-transform:rotate(360deg);}
+}@-ms-keyframes rotateLogo {
+from { -ms-transform:rotate(0deg);}
+  to { -ms-transform:rotate(360deg);}
+}
+
+
+ #cont_menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   background: url(../img/bgbanner.jpg) repeat-x;
 }
 
+
+
 #logo{
-background-color:rgb(47,53,62);
-background: url(../img/background-public-body.png) repeat-x;
-height: 100px;
+  /*background-color:rgb(47,53,62);*/
+ /* background: url(../img/background-public-body.png) repeat-x;*/
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* 4 CIRCULOS */
@@ -380,6 +422,7 @@ height: 100px;
 
   background:#def1fa url(../img/bgHeroHome.jpg) repeat-x center 100%;
   display:block;
+  padding-top: 90px;
 
 }
 #fondo .nivel1{
@@ -537,7 +580,10 @@ transition: .3s;
   font-size: 16px;
   font-weight: 22px;
   display: block;
+}
 
+#barra_logos article{
+  padding-top: 80px;
 }
 
 
@@ -546,11 +592,12 @@ transition: .3s;
   font-size:30px;
   font-family: 'BebasNeue', Arial, Helvetica, sans-serif;
   position:relative;
-  margin-bottom:40px;
+  margin-bottom:20px;
   color:#003366;
   line-height: 18px;
   font-weight:200 !important;
-  padding: 10px;
+  /*padding: 10px;*/
+
 }
 
 #barra_logos  h2:before,#barra_logos  h2:after
@@ -600,7 +647,7 @@ transition: .3s;
 
 
 #idea4 .contenido{
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .ideas{border-top:10px solid #b8d30b;padding:10px;}
 .ideas span{font-size:50px !important;line-height:56px;color:#b8d30b;margin-top:30px;}

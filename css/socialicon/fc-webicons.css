@@ -67,7 +67,7 @@
 
 /* Facebook */
 .no-svg .fc-webicon.facebook { background: url("images/fc-webicon-facebook-m.png"); }
-.no-svg .fc-webicon.facebook.large { background: url("images/fc-webicon-facebook.png"); background-color: red !important;}
+.no-svg .fc-webicon.facebook.large {background: url("images/fc-webicon-facebook.png"); }
 .no-svg .fc-webicon.facebook.small { background: url("images/fc-webicon-facebook-s.png"); }
 .svg .fc-webicon.facebook { background: url("images/fc-webicon-facebook.svg"); }
 

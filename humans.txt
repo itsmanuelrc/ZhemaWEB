@@ -3,15 +3,14 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  ZHEMA TEAM: Manuel Rivera Site:
+about.me/manuelrc  Twitter:
+@manuelriverac  Location: Lima, PE
 
 /* THANKS */
   Names (& URL):
 
-/* SITE */
+/* geekeandonos.wordpress.com */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
   Software:
