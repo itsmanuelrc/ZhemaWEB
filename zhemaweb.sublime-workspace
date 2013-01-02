@@ -391,8 +391,24 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 24651,
+				"buffer_size": 23755,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/webKillapura/Listado.php",
+			"settings":
+			{
+				"buffer_size": 6836,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/webKillapura/principal.html",
+			"settings":
+			{
+				"buffer_size": 2755,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -512,6 +528,11 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/webKillapura/principal.php",
+		"/C/xampp/htdocs/geekeandonos/wp-config.php",
+		"/C/xampp/htdocs/wordpress/wp-config.php",
+		"/C/Users/Manuel/Desktop/hm5shut.html",
+		"/C/Users/Manuel/Desktop/testaudio2.html",
 		"/D/Repositorio_local/ZhemaWEB/.htaccess",
 		"/D/Pruebas Desarrollo/neobytec-AnimatedPanelMenu-ac1d88c/index.html",
 		"/D/Sublime Text 2.0.1/Data/Packages/User/Default (Windows).sublime-keymap",
@@ -593,6 +614,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slides",
 			"cont_menu",
 			"caption",
 			"caption-",
@@ -719,8 +741,7 @@
 			"barra_contenido",
 			"barra",
 			"barra_somos",
-			"inno",
-			"idea2"
+			"inno"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -767,7 +788,7 @@
 								"README",
 								"FIXME"
 							],
-							"class_or_id": "cont_menu",
+							"class_or_id": "slides",
 							"csslint_options":
 							{
 								"adjoining-classes": "warning",
@@ -870,8 +891,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								21,
+								21
 							]
 						],
 						"settings":
@@ -882,7 +903,7 @@
 								"README",
 								"FIXME"
 							],
-							"class_or_id": "cont_menu",
+							"class_or_id": "slides",
 							"csslint_options":
 							{
 								"adjoining-classes": "warning",
@@ -987,8 +1008,8 @@
 						"selection":
 						[
 							[
-								9106,
-								9106
+								7727,
+								7727
 							]
 						],
 						"settings":
@@ -999,7 +1020,7 @@
 								"README",
 								"FIXME"
 							],
-							"class_or_id": "cont_menu",
+							"class_or_id": "slides",
 							"csslint_options":
 							{
 								"adjoining-classes": "warning",
@@ -1087,7 +1108,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5713.0,
+						"translation.y": 3141.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1214,15 +1235,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 24651,
+						"buffer_size": 23755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3753,
-								3762
+								23689,
+								23689
 							]
 						],
 						"settings":
@@ -1234,13 +1255,69 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1306.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "/C/xampp/htdocs/webKillapura/Listado.php",
+					"settings":
+					{
+						"buffer_size": 6836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/xampp/htdocs/webKillapura/principal.html",
+					"settings":
+					{
+						"buffer_size": 2755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1260,
+								1260
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "js/script.js",
 					"settings":
 					{
@@ -1268,7 +1345,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "css/socialicon/fc-webicons.css",
 					"settings":
 					{
@@ -1285,11 +1362,11 @@
 						],
 						"settings":
 						{
-							"class_or_id": "cont_menu",
+							"class_or_id": "slides",
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4176.0,
+						"translation.y": 4121.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1352,7 +1429,7 @@
 		[
 			[
 				"",
-				"/D/Pruebas Desarrollo/ART Y DECOR INITIALZR.sublime-project"
+				"/C/xampp/htdocs/geekeandonos/wp-content/themes/ReporterGeek/reporterGeek.sublime-project"
 			]
 		],
 		"width": 380.0
