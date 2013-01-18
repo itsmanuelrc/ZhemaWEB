@@ -1,0 +1,424 @@
+/* Requires: normalize.css */
+/* Global Reset & Standards ---------------------- */
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .reveal-modal-bg {
+    position: absolute;
+  }
+  .reveal-modal {
+    width: 80%;
+    top: 15px;
+    left: 50%;
+    margin-left: -40%;
+    padding: 20px;
+    height: auto;
+    &.small, &.medium, &.large, &.xlarge {
+      width: 80%;
+      top: 15px;
+      left: 50%;
+      margin-left: -40%;
+      padding: 20px;
+      height: auto;
+    }
+  }
+}
+
+ /* NOTES Close button entity is &#215;
+Example markup <div id="myModal" class="reveal-modal"> <h2>Awesome. I have it.</h2> <p class="lead">Your couch.  I it's mine.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p> <a class="close-reveal-modal">&#215;</a> </div> */
+/* Requires globals.css app.js */
+/* Tabs ---------------------- */
+
+dl.tabs {
+  border-bottom: solid 1px #e6e6e6;
+  display: block;
+  height: 50px;
+  padding: 0;
+  margin-bottom: 20px;
+  &.contained {
+    margin-bottom: 0;
+  }
+  dt {
+    color: #b3b3b3;
+    cursor: default;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 9px 0 20px;
+    width: auto;
+    text-transform: uppercase;
+    &:first-child {
+      padding: 0 9px 0 0;
+    }
+  }
+  dd {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    a {
+      color: #6f6f6f;
+      display: block;
+      font-size: 14px;
+      height: 40px;
+      line-height: 40px;
+      padding: 0px 23.8px;
+    }
+    &.active {
+      border-top: 3px solid #2ba6cb;
+      border-bottom: 0px;
+      margin-top: -3px;
+      a {
+        cursor: default;
+        color: #3c3c3c;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+        font-weight: bold;
+      }
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  &.vertical {
+    height: auto;
+    border-bottom: 1px solid #e6e6e6;
+    dt {
+      float: none;
+      height: auto;
+    }
+    dd {
+      float: none;
+      height: auto;
+      border-left: 3px solid #cccccc;
+      a {
+        background: #f2f2f2;
+        border: none;
+        border: 1px solid #e6e6e6;
+        border-width: 1px 1px 0 0;
+        color: #555;
+        display: block;
+        font-size: 14px;
+        height: auto;
+        line-height: 1;
+        padding: 15px 20px;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+        -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+      }
+      &.active {
+        margin-top: 0;
+        border-top: 1px solid #4d4d4d;
+        border-left: 4px solid #1a1a1a;
+        a {
+          background: #4d4d4d;
+          border: none;
+          color: #fff;
+          height: auto;
+          margin: 0;
+          position: static;
+          top: 0;
+          -webkit-box-shadow: 0 0 0;
+          -moz-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+        }
+      }
+      &:first-child a.active {
+        margin: 0;
+      }
+    }
+  }
+  &.pill {
+    border-bottom: none;
+    margin-bottom: 10px;
+    dd {
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0;
+      }
+      a {
+        -webkit-border-radius: 1000px;
+        -moz-border-radius: 1000px;
+        -ms-border-radius: 1000px;
+        -o-border-radius: 1000px;
+        border-radius: 1000px;
+        background: #e6e6e6;
+        height: 26px;
+        line-height: 26px;
+        color: #666;
+      }
+      &.active {
+        border: none;
+        margin-top: 0;
+        a {
+          background-color: #2ba6cb;
+          border: none;
+          color: #fff;
+        }
+      }
+    }
+    &.contained {
+      border-bottom: solid 1px #eeeeee;
+      margin-bottom: 0;
+    }
+  }
+  &.two-up {
+    dt a, dd a {
+      padding: 0 17px;
+      text-align: center;
+      overflow: hidden;
+    }
+  }
+  &.three-up {
+    dt a, dd a {
+      padding: 0 17px;
+      text-align: center;
+      overflow: hidden;
+    }
+  }
+  &.four-up {
+    dt a, dd a {
+      padding: 0 17px;
+      text-align: center;
+      overflow: hidden;
+    }
+  }
+  &.five-up {
+    dt a, dd a {
+      padding: 0 17px;
+      text-align: center;
+      overflow: hidden;
+    }
+  }
+  &.two-up {
+    dt, dd {
+      width: 50%;
+    }
+  }
+  &.three-up {
+    dt, dd {
+      width: 33.33%;
+    }
+  }
+  &.four-up {
+    dt, dd {
+      width: 25%;
+    }
+  }
+  &.five-up {
+    dt, dd {
+      width: 20%;
+    }
+  }
+}
+
+ul.tabs-content {
+  display: block;
+  margin: 0 0 20px;
+  padding: 0;
+  > li {
+    display: none;
+    text-align: justify;
+    &.active {
+      display: block;
+    }
+  }
+  &.contained {
+    padding: 0;
+    > li {
+      border: solid 0 #e6e6e6;
+      border-width: 0 1px 1px 1px;
+      padding: 20px;
+    }
+    &.vertical > li {
+      border-width: 1px 1px 1px 1px;
+    }
+  }
+}
+
+.no-js ul.tabs-content > li {
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  dl {
+    &.tabs.mobile, &.nice.tabs.mobile {
+      width: auto;
+      margin: 20px -20px 40px;
+      height: auto;
+    }
+    &.tabs.mobile {
+      dt, dd {
+        float: none;
+        height: auto;
+      }
+    }
+    &.nice.tabs.mobile {
+      dt, dd {
+        float: none;
+        height: auto;
+      }
+    }
+    &.tabs.mobile dd a {
+      display: block;
+      width: auto;
+      height: auto;
+      padding: 18px 20px;
+      line-height: 1;
+      border: solid 0 #cccccc;
+      border-width: 1px 0 0;
+      margin: 0;
+      color: #555;
+      background: #eee;
+      font-size: 15px;
+      font-size: 1.5rem;
+      &.active {
+        height: auto;
+        margin: 0;
+        border-width: 1px 0 0;
+      }
+    }
+  }
+  .tabs.mobile {
+    border-bottom: solid 1px #cccccc;
+    height: auto;
+    dd {
+      a {
+        padding: 18px 20px;
+        border: none;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #cccccc;
+        background: #fff;
+        &.active {
+          border: none;
+          background: #2ba6cb;
+          color: #fff;
+          margin: 0;
+          position: static;
+          top: 0;
+          height: auto;
+        }
+      }
+      &:first-child a.active {
+        margin: 0;
+      }
+    }
+  }
+  dl {
+    &.contained.mobile, &.nice.contained.mobile {
+      margin-bottom: 0;
+    }
+    &.contained.tabs.mobile dd a {
+      padding: 18px 20px;
+    }
+    &.tabs.mobile + ul.contained {
+      margin-left: -20px;
+      margin-right: -20px;
+      border-width: 0 0 1px 0;
+    }
+  }
+}
+
+/* Requires: globals.css */
+/* Table of Contents
+
+:: Visibility
+:: Alerts
+:: Labels
+:: Tooltips
+:: Panels
+:: Accordion
+:: Side Nav
+:: Sub Nav
+:: Pagination
+:: Breadcrumbs
+:: Lists
+:: Link Lists
+:: Keystroke Chars
+:: Video
+:: Tables
+:: Microformats
+
+*/
+/* Visibility Classes ---------------------- */
+/* Standard (large) display targeting */
+
+.show-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .show-for-xlarge {
+  display: none !important;
+}
+
+.hide-for-xlarge, .show-for-large, .show-for-large-up, .hide-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-landscape, .hide-for-portrait {
+  display: block !important;
+}
+
+/* Very large display targeting */
+@media only screen and (min-width: 1441px) {
+  .hide-for-small, .hide-for-medium, .hide-for-medium-down, .hide-for-large, .show-for-large-up, .show-for-xlarge {
+    display: block !important;
+  }
+  .show-for-small, .show-for-medium, .show-for-medium-down, .show-for-large, .hide-for-large-up, .hide-for-xlarge {
+    display: none !important;
+  }
+}
+
+/* Medium display targeting */
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+  .hide-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge {
+    display: block !important;
+  }
+  .show-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge {
+    display: none !important;
+  }
+}
+
+/* Small display targeting */
+@media only screen and (max-width: 767px) {
+  .show-for-small, .show-for-medium-down, .hide-for-medium, .hide-for-large, .hide-for-large-up, .hide-for-xlarge {
+    display: block !important;
+  }
+  .hide-for-small, .show-for-medium, .show-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge {
+    display: none !important;
+  }
+}
+
+/* Orientation targeting */
+
+.hide-for-landscape, .show-for-portrait, .show-for-touch {
+  display: none !important;
+}
+
+@media screen and (orientation: landscape) {
+  .show-for-landscape, .hide-for-portrait {
+    display: block !important;
+  }
+  .hide-for-landscape, .show-for-portrait {
+    display: none !important;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .show-for-portrait, .hide-for-landscape {
+    display: block !important;
+  }
+  .hide-for-portrait, .show-for-landscape {
+    display: none !important;
+  }
+}
+
+/* Touch-enabled device targeting */
+
+.hide-for-touch {
+  display: block !important;
+}
+
+.touch {
+  .show-for-touch {
+    display: block !important;
+  }
+  .hide-for-touch {
+    display: none !important;
+  }
+}

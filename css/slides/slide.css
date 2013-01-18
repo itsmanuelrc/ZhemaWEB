@@ -1,30 +1,30 @@
-
 /*
 	Slideshow
 */
-
+/* line 5, ../../sass/slides/slide.scss */
 #slides {
-width: 220px;
-height: 184px;
-
-
+  width: 220px;
+  height: 184px;
 }
 
-}
 /*
 	Slides container
 	Important:
 	Set the width of your slides container
 	Set to display none, prevents content flash
 */
-
+/* line 17, ../../sass/slides/slide.scss */
 .slides_container {
-	width:220px;
-	height: 184px;
-	overflow:hidden;
-	position:relative;
-	display:none;
-
+  width: 220px;
+  height: 184px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+/* line 23, ../../sass/slides/slide.scss */
+.slides_container div.slide {
+  width: 220px;
+  text-align: center;
 }
 
 /*
@@ -34,95 +34,83 @@ height: 184px;
 	If height not specified height will be set by the slide content
 	Set to display block
 */
-
-.slides_container div.slide {
-	width:220px;
-text-align: center;
-}
-
-
-
 /*
 	Pagination
 */
-
+/* line 41, ../../sass/slides/slide.scss */
 .pagination {
-	margin:26px auto 0;
-	margin-top: 2px;
-	width:100px;
+  margin: 26px auto 0;
+  margin-top: 2px;
+  width: 100px;
 }
-
+/* line 45, ../../sass/slides/slide.scss */
 .pagination li {
-	float:left;
-	margin:0 1px;
-	list-style:none;
+  float: left;
+  margin: 0 1px;
+  list-style: none;
 }
-
+/* line 49, ../../sass/slides/slide.scss */
 .pagination li a {
-	display:block;
-	width:12px;
-	height:0px;
-	padding-top:12px;
-	background-image:url(../../img/pagination.png);
-	background-position:0 0;
-	float:left;
-	overflow:hidden;
+  display: block;
+  width: 12px;
+  height: 0px;
+  padding-top: 12px;
+  background-image: url(../../img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
 }
-
+/* line 59, ../../sass/slides/slide.scss */
 .pagination li.current a {
-	background-position:0 -12px;
+  background-position: 0 -12px;
 }
 
 /*
 	Caption
 */
-
+/* line 69, ../../sass/slides/slide.scss */
 .caption {
-	z-index:500;
-	position:absolute;
-	bottom:-35px;
-	height:30px;
-	background:#000;
-	background:rgba(0,0,0,.5);
-	padding:0px 0px 5px 10px;
-	width:220px;
-	font-size:13px;
-	color:#fff;
-	text-shadow:none;
-
-
+  z-index: 500;
+  position: absolute;
+  bottom: -35px;
+  height: 30px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0px 0px 5px 10px;
+  width: 220px;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: none;
 }
-
-
 
 /*
 	Anchors
 */
-
-a:link,a:visited {
-	color:#599100;
-	text-decoration:none;
+/* line 88, ../../sass/slides/slide.scss */
+a:link, a:visited {
+  color: #599100;
+  text-decoration: none;
 }
-
-a:hover,a:active {
-	color:#599100;
-	text-decoration:underline;
+/* line 92, ../../sass/slides/slide.scss */
+a:hover, a:active {
+  color: #599100;
+  text-decoration: underline;
 }
 
 /*
 	Next/prev buttons
 */
-
-#slides .next,#slides .prev {
-	position:absolute;
-	top:107px;
-	left:-39px;
-	width:24px;
-	height:43px;
-	display:block;
-	z-index:101;
+/* line 103, ../../sass/slides/slide.scss */
+#slides .next, #slides .prev {
+  position: absolute;
+  top: 107px;
+  left: -39px;
+  width: 24px;
+  height: 43px;
+  display: block;
+  z-index: 101;
 }
-
+/* line 112, ../../sass/slides/slide.scss */
 #slides .next {
-	left:585px;
+  left: 585px;
 }

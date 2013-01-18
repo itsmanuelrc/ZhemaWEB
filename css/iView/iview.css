@@ -1,129 +1,145 @@
 /* The slider */
+/* line 3, ../../sass/iView/iview.scss */
 .iviewSlider {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 /* The timer in the Slider */
+/* line 9, ../../sass/iView/iview.scss */
 #iview-timer {
-	position: absolute;
-	z-index: 100;
-	border-radius: 5px;
-	cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
+/* line 14, ../../sass/iView/iview.scss */
 #iview-timer div {
-	border-radius: 3px;
+  border-radius: 3px;
 }
 
 /* The Preloader in the Slider */
+/* line 21, ../../sass/iView/iview.scss */
 #iview-preloader {
-	position: absolute;
-	z-index: 1000;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	border: #000 1px solid;
-	padding: 1px;
-	width: 100px;
-	height: 3px;
+  position: absolute;
+  z-index: 1000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: black 1px solid;
+  padding: 1px;
+  width: 100px;
+  height: 3px;
 }
+/* line 31, ../../sass/iView/iview.scss */
 #iview-preloader div {
-	float: left;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	height: 3px;
-	background: #000;
-	width: 0px;
+  float: left;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 3px;
+  background: #000;
+  width: 0px;
 }
 
 /* The strips and boxes in the Slider */
-.iview-strip {
-	display:block;
-	position:absolute;
-	z-index:5;
-}
-.iview-block {
-	display:block;
-	position:absolute;
-	z-index:5;
+/* line 44, ../../sass/iView/iview.scss */
+.iview-strip, .iview-block {
+  display: block;
+  position: absolute;
+  z-index: 5;
 }
 
 /* Direction nav styles (e.g. Next & Prev) */
+/* line 52, ../../sass/iView/iview.scss */
 .iview-directionNav a {
-	position:absolute;
-	top:45%;
-	z-index:9;
-	cursor:pointer;
+  position: absolute;
+  top: 45%;
+  z-index: 9;
+  cursor: pointer;
 }
+
+/* line 59, ../../sass/iView/iview.scss */
 .iview-prevNav {
-	left:0px;
+  left: 0px;
 }
+
+/* line 63, ../../sass/iView/iview.scss */
 .iview-nextNav {
-	right:0px;
+  right: 0px;
 }
 
 /* Control nav styles (e.g. 1,2,3...) */
+/* line 69, ../../sass/iView/iview.scss */
 .iview-controlNav {
-	position:absolute;
-	z-index:9;
+  position: absolute;
+  z-index: 9;
 }
+/* line 72, ../../sass/iView/iview.scss */
 .iview-controlNav a {
-	z-index:9;
-	cursor:pointer;
+  z-index: 9;
+  cursor: pointer;
 }
+/* line 75, ../../sass/iView/iview.scss */
 .iview-controlNav a.active {
-	font-weight:bold;
+  font-weight: bold;
 }
+/* line 79, ../../sass/iView/iview.scss */
 .iview-controlNav .iview-items ul {
-	list-style: none;
+  list-style: none;
 }
+/* line 81, ../../sass/iView/iview.scss */
 .iview-controlNav .iview-items ul li {
-	display: inline;
-	position: relative;
+  display: inline;
+  position: relative;
 }
+/* line 86, ../../sass/iView/iview.scss */
 .iview-controlNav .iview-tooltip {
-	position: absolute;
+  position: absolute;
 }
 
 /* The captions in the Slider */
+/* line 93, ../../sass/iView/iview.scss */
 .iview-caption {
-	position:absolute;
-	z-index:4;
-	overflow: hidden;
-	cursor: default;
+  position: absolute;
+  z-index: 4;
+  overflow: hidden;
+  cursor: default;
 }
 
 /* The video show in the Slider */
+/* line 102, ../../sass/iView/iview.scss */
 .iview-video-show {
-	background: #000;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: 101;
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
 }
+/* line 108, ../../sass/iView/iview.scss */
 .iview-video-show .iview-video-container {
-	position: relative;
-	width: 100%;
-	height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
+/* line 112, ../../sass/iView/iview.scss */
 .iview-video-show .iview-video-container a.iview-video-close {
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	background: #222;
-	color: #FFF;
-	height: 20px;
-	width: 20px;
-	text-align: center;
-	line-height: 29px;
-	font-size: 22px;
-	font-weight: bold;
-	overflow: hidden;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #222;
+  color: #FFF;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  line-height: 29px;
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
+/* line 128, ../../sass/iView/iview.scss */
 .iview-video-show .iview-video-container a.iview-video-close:hover {
-	background: #444;
+  background: #444;
 }

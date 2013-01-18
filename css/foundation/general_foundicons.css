@@ -8,6 +8,7 @@
 }
 
 /* global foundicon styles */
+/* line 13, ../../sass/foundation/general_foundicons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -18,7 +19,7 @@
   background-position: 0 0;
   background-repeat: repeat;
 }
-
+/* line 22, ../../sass/foundation/general_foundicons.scss */
 [class*="foundicon-"]:before {
   font-family: "GeneralFoundicons";
   font-weight: normal;
@@ -27,190 +28,237 @@
 }
 
 /* icons */
+/* line 32, ../../sass/foundation/general_foundicons.scss */
 .foundicon-settings:before {
   content: "\f000";
 }
 
+/* line 36, ../../sass/foundation/general_foundicons.scss */
 .foundicon-heart:before {
   content: "\f001";
 }
 
+/* line 40, ../../sass/foundation/general_foundicons.scss */
 .foundicon-star:before {
   content: "\f002";
 }
 
+/* line 44, ../../sass/foundation/general_foundicons.scss */
 .foundicon-plus:before {
   content: "\f003";
 }
 
+/* line 48, ../../sass/foundation/general_foundicons.scss */
 .foundicon-minus:before {
   content: "\f004";
 }
 
+/* line 52, ../../sass/foundation/general_foundicons.scss */
 .foundicon-checkmark:before {
   content: "\f005";
 }
 
+/* line 56, ../../sass/foundation/general_foundicons.scss */
 .foundicon-remove:before {
   content: "\f006";
 }
 
+/* line 60, ../../sass/foundation/general_foundicons.scss */
 .foundicon-mail:before {
   content: "\f007";
 }
 
+/* line 64, ../../sass/foundation/general_foundicons.scss */
 .foundicon-calendar:before {
   content: "\f008";
 }
 
+/* line 68, ../../sass/foundation/general_foundicons.scss */
 .foundicon-page:before {
   content: "\f009";
 }
 
+/* line 72, ../../sass/foundation/general_foundicons.scss */
 .foundicon-tools:before {
   content: "\f00a";
 }
 
+/* line 76, ../../sass/foundation/general_foundicons.scss */
 .foundicon-globe:before {
   content: "\f00b";
 }
 
+/* line 80, ../../sass/foundation/general_foundicons.scss */
 .foundicon-home:before {
   content: "\f00c";
 }
 
+/* line 84, ../../sass/foundation/general_foundicons.scss */
 .foundicon-quote:before {
   content: "\f00d";
 }
 
+/* line 88, ../../sass/foundation/general_foundicons.scss */
 .foundicon-people:before {
   content: "\f00e";
 }
 
+/* line 92, ../../sass/foundation/general_foundicons.scss */
 .foundicon-monitor:before {
   content: "\f00f";
 }
 
+/* line 96, ../../sass/foundation/general_foundicons.scss */
 .foundicon-laptop:before {
   content: "\f010";
 }
 
+/* line 100, ../../sass/foundation/general_foundicons.scss */
 .foundicon-phone:before {
   content: "\f011";
 }
 
+/* line 104, ../../sass/foundation/general_foundicons.scss */
 .foundicon-cloud:before {
   content: "\f012";
 }
 
+/* line 108, ../../sass/foundation/general_foundicons.scss */
 .foundicon-error:before {
   content: "\f013";
 }
 
+/* line 112, ../../sass/foundation/general_foundicons.scss */
 .foundicon-right-arrow:before {
   content: "\f014";
 }
 
+/* line 116, ../../sass/foundation/general_foundicons.scss */
 .foundicon-left-arrow:before {
   content: "\f015";
 }
 
+/* line 120, ../../sass/foundation/general_foundicons.scss */
 .foundicon-up-arrow:before {
   content: "\f016";
 }
 
+/* line 124, ../../sass/foundation/general_foundicons.scss */
 .foundicon-down-arrow:before {
   content: "\f017";
 }
 
+/* line 128, ../../sass/foundation/general_foundicons.scss */
 .foundicon-trash:before {
   content: "\f018";
 }
 
+/* line 132, ../../sass/foundation/general_foundicons.scss */
 .foundicon-add-doc:before {
   content: "\f019";
 }
 
+/* line 136, ../../sass/foundation/general_foundicons.scss */
 .foundicon-edit:before {
   content: "\f01a";
 }
 
+/* line 140, ../../sass/foundation/general_foundicons.scss */
 .foundicon-lock:before {
   content: "\f01b";
 }
 
+/* line 144, ../../sass/foundation/general_foundicons.scss */
 .foundicon-unlock:before {
   content: "\f01c";
 }
 
+/* line 148, ../../sass/foundation/general_foundicons.scss */
 .foundicon-refresh:before {
   content: "\f01d";
 }
 
+/* line 152, ../../sass/foundation/general_foundicons.scss */
 .foundicon-paper-clip:before {
   content: "\f01e";
 }
 
+/* line 156, ../../sass/foundation/general_foundicons.scss */
 .foundicon-video:before {
   content: "\f01f";
 }
 
+/* line 160, ../../sass/foundation/general_foundicons.scss */
 .foundicon-photo:before {
   content: "\f020";
 }
 
+/* line 164, ../../sass/foundation/general_foundicons.scss */
 .foundicon-graph:before {
   content: "\f021";
 }
 
+/* line 168, ../../sass/foundation/general_foundicons.scss */
 .foundicon-idea:before {
   content: "\f022";
 }
 
+/* line 172, ../../sass/foundation/general_foundicons.scss */
 .foundicon-mic:before {
   content: "\f023";
 }
 
+/* line 176, ../../sass/foundation/general_foundicons.scss */
 .foundicon-cart:before {
   content: "\f024";
 }
 
+/* line 180, ../../sass/foundation/general_foundicons.scss */
 .foundicon-address-book:before {
   content: "\f025";
 }
 
+/* line 184, ../../sass/foundation/general_foundicons.scss */
 .foundicon-compass:before {
   content: "\f026";
 }
 
+/* line 188, ../../sass/foundation/general_foundicons.scss */
 .foundicon-flag:before {
   content: "\f027";
 }
 
+/* line 192, ../../sass/foundation/general_foundicons.scss */
 .foundicon-location:before {
   content: "\f028";
 }
 
+/* line 196, ../../sass/foundation/general_foundicons.scss */
 .foundicon-clock:before {
   content: "\f029";
 }
 
+/* line 200, ../../sass/foundation/general_foundicons.scss */
 .foundicon-folder:before {
   content: "\f02a";
 }
 
+/* line 204, ../../sass/foundation/general_foundicons.scss */
 .foundicon-inbox:before {
   content: "\f02b";
 }
 
+/* line 208, ../../sass/foundation/general_foundicons.scss */
 .foundicon-website:before {
   content: "\f02c";
 }
 
+/* line 212, ../../sass/foundation/general_foundicons.scss */
 .foundicon-smiley:before {
   content: "\f02d";
 }
 
+/* line 216, ../../sass/foundation/general_foundicons.scss */
 .foundicon-search:before {
   content: "\f02e";
 }

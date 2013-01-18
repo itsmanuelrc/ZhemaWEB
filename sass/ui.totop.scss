@@ -4,7 +4,7 @@
 | http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
 |--------------------------------------------------------------------------
 */
-/* line 8, ../sass/ui.totop.scss */
+
 #toTop {
   display: none;
   text-decoration: none;
@@ -19,7 +19,6 @@
   background: url(../img/ui.totop.png) no-repeat left top;
 }
 
-/* line 22, ../sass/ui.totop.scss */
 #toTopHover {
   background: url(../img/ui.totop.png) no-repeat left -51px;
   width: 51px;
@@ -29,10 +28,11 @@
   float: left;
   opacity: 0;
   -moz-opacity: 0;
-  filter: alpha(opacity=0);
+  filter: alpha(opacity = 0);
 }
 
-/* line 35, ../sass/ui.totop.scss */
-#toTop:active, #toTop:focus {
-  outline: none;
+#toTop {
+  &:active, &:focus {
+    outline: none;
+  }
 }

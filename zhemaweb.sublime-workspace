@@ -359,7 +359,7 @@
 			"file": "css/core.css",
 			"settings":
 			{
-				"buffer_size": 45,
+				"buffer_size": 43,
 				"line_ending": "Windows"
 			}
 		},
@@ -367,15 +367,7 @@
 			"file": "css/960.css",
 			"settings":
 			{
-				"buffer_size": 9989,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 29707,
+				"buffer_size": 14361,
 				"line_ending": "Windows"
 			}
 		},
@@ -388,11 +380,14 @@
 			}
 		},
 		{
-			"file": "index.html",
+			"contents": "",
+			"file": "/C/xampp/htdocs/wordpress/wp-content/themes/zhemaTheme/index.html",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 23755,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -423,7 +418,23 @@
 			"file": "css/socialicon/fc-webicons.css",
 			"settings":
 			{
-				"buffer_size": 19271,
+				"buffer_size": 31433,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Nuevo documento de texto.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 23815,
 				"line_ending": "Unix"
 			}
 		}
@@ -528,6 +539,7 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/wordpress/wp-content/themes/zhemaTheme/style.css",
 		"/C/xampp/htdocs/webKillapura/principal.php",
 		"/C/xampp/htdocs/geekeandonos/wp-config.php",
 		"/C/xampp/htdocs/wordpress/wp-config.php",
@@ -761,7 +773,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -769,7 +781,7 @@
 					"file": "css/core.css",
 					"settings":
 					{
-						"buffer_size": 45,
+						"buffer_size": 43,
 						"regions":
 						{
 						},
@@ -884,15 +896,15 @@
 					"file": "css/960.css",
 					"settings":
 					{
-						"buffer_size": 9989,
+						"buffer_size": 14361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								0,
+								0
 							]
 						],
 						"settings":
@@ -998,123 +1010,6 @@
 				},
 				{
 					"buffer": 2,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 29707,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7727,
-								7727
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"class_or_id": "slides",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3141.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "404.html",
 					"settings":
 					{
@@ -1231,19 +1126,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "index.html",
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/wordpress/wp-content/themes/zhemaTheme/index.html",
 					"settings":
 					{
-						"buffer_size": 23755,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23689,
-								23689
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1255,13 +1150,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 359.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/C/xampp/htdocs/webKillapura/Listado.php",
 					"settings":
 					{
@@ -1290,7 +1185,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/C/xampp/htdocs/webKillapura/principal.html",
 					"settings":
 					{
@@ -1317,7 +1212,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "js/script.js",
 					"settings":
 					{
@@ -1345,28 +1240,85 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "css/socialicon/fc-webicons.css",
 					"settings":
 					{
-						"buffer_size": 19271,
+						"buffer_size": 31433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4155,
-								4155
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"class_or_id": "slides",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 4121.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Nuevo documento de texto.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 23815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20149,
+								20149
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7784.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1429,7 +1381,7 @@
 		[
 			[
 				"",
-				"/C/xampp/htdocs/geekeandonos/wp-content/themes/ReporterGeek/reporterGeek.sublime-project"
+				"/D/Repositorio_local/initializr-ARTYDECOR/ART Y DECOR INITIALZR.sublime-project"
 			]
 		],
 		"width": 380.0
